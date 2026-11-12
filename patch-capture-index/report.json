@@ -720,20 +720,20 @@
     "last_modified": "Mon, 26 Oct 2026 06:46:53 GMT"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/bundle.c55b0e.js",
-    "file": "capture/en/bundle.c55b0e.js",
-    "status": 200,
-    "sha256": "344708db336400797439db305252cefe72cadd22da8b668459a4a6cef16b78c5",
-    "size": 6809546,
-    "last_modified": "Fri, 06 Nov 2026 08:15:03 GMT"
-  },
-  {
     "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/library.4c6181.js",
     "file": "capture/en/library.4c6181.js",
     "status": 200,
     "sha256": "8b3366c45d54dac10d4f92bbb992ff323fa164d4952b38cc9b80c41cb8db8d91",
     "size": 757256,
     "last_modified": "Mon, 26 Oct 2026 06:51:10 GMT"
+  },
+  {
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/bundle.c55b0e.js",
+    "file": "capture/en/bundle.c55b0e.js",
+    "status": 200,
+    "sha256": "344708db336400797439db305252cefe72cadd22da8b668459a4a6cef16b78c5",
+    "size": 6809546,
+    "last_modified": "Fri, 06 Nov 2026 08:15:03 GMT"
   },
   {
     "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/version.json",
@@ -1456,19 +1456,19 @@
     "last_modified": "Mon, 26 Oct 2026 06:37:32 GMT"
   },
   {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/bundle.c55b0e.js",
-    "file": "capture/kr/bundle.c55b0e.js",
-    "status": 200,
-    "sha256": "344708db336400797439db305252cefe72cadd22da8b668459a4a6cef16b78c5",
-    "size": 6809546,
-    "last_modified": "Fri, 06 Nov 2026 08:14:24 GMT"
-  },
-  {
     "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/library.4c6181.js",
     "file": "capture/kr/library.4c6181.js",
     "status": 200,
     "sha256": "8b3366c45d54dac10d4f92bbb992ff323fa164d4952b38cc9b80c41cb8db8d91",
     "size": 757256,
     "last_modified": "Mon, 26 Oct 2026 06:45:19 GMT"
+  },
+  {
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/bundle.c55b0e.js",
+    "file": "capture/kr/bundle.c55b0e.js",
+    "status": 200,
+    "sha256": "344708db336400797439db305252cefe72cadd22da8b668459a4a6cef16b78c5",
+    "size": 6809546,
+    "last_modified": "Fri, 06 Nov 2026 08:14:24 GMT"
   }
 ]
