@@ -153,6 +153,34 @@ jobs:
           (out/"report.json").write_text(json.dumps(results,indent=2))
           print(json.dumps(results,indent=2))
           PY
+      - name: Extract changed visual assets
+        run: |
+          python - <<'PY'
+          import json,pathlib,urllib.request,concurrent.futures
+          root=pathlib.Path('capture')
+          old=json.loads((root/'en/version.json').read_text())
+          new=json.loads((root/'en_test/version.json').read_text())
+          base='https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/'
+          out=pathlib.Path('visual-assets')
+          targets=[(k,v) for k,v in new.items() if isinstance(v,str) and old.get(k)!=v and k.lower().endswith(('.png','.jpg','.jpeg','.webp','.atlas','.sk'))]
+          def get(pair):
+              k,v=pair
+              try:
+                  p=out/k
+                  p.parent.mkdir(parents=True,exist_ok=True)
+                  with urllib.request.urlopen(base+v,timeout=30) as r: p.write_bytes(r.read())
+                  return [k,v,p.stat().st_size,None]
+              except Exception as e: return [k,v,0,str(e)]
+          with concurrent.futures.ThreadPoolExecutor(max_workers=16) as ex: results=list(ex.map(get,targets))
+          out.mkdir(exist_ok=True)
+          (out/'download-report.json').write_text(json.dumps(results,ensure_ascii=False))
+          print('Visual assets:',len(results),'successful:',sum(x[3] is None for x in results))
+          PY
+      - name: Upload visual assets
+        uses: actions/upload-artifact@v4
+        with:
+          name: staged-35194-visual-assets
+          path: visual-assets/
       - name: Upload capture
         if: always()
         uses: actions/upload-artifact@v4
