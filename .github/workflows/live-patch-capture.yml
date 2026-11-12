@@ -1,0 +1,74 @@
+name: Live patch capture
+on:
+  push:
+    branches: [data-mining/live-patch-audit-20261112]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Capture public manifests and resources
+        shell: bash
+        run: |
+          mkdir -p capture
+          python3 - <<'PY'
+          import urllib.request, urllib.parse, json, pathlib, hashlib, re, time
+          root=pathlib.Path("capture")
+          report=[]
+          def get(url, path):
+              try:
+                  req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0","Cache-Control":"no-cache"})
+                  with urllib.request.urlopen(req,timeout=25) as r:
+                      data=r.read(100_000_001)
+                      if len(data)>100_000_000: raise ValueError("resource exceeds cap")
+                      path.write_bytes(data)
+                      report.append(dict(url=url,file=str(path),status=r.status,sha256=hashlib.sha256(data).hexdigest(),size=len(data),last_modified=r.headers.get("Last-Modified")))
+                      return data
+              except Exception as e:
+                  report.append(dict(url=url,error=str(e)))
+                  return None
+          for region,base in [("en","https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/"),("kr","https://hwkr-cdn.techplmnet.site/hwkr/channel/app/")]:
+              d=root/region
+              d.mkdir()
+              raw=get(base+"version.json",d/"version.json")
+              idx=get(base+"index.js",d/"index.js")
+              if not raw: continue
+              try: v=json.loads(raw)
+              except Exception: continue
+              print(region,json.dumps(v)[:10000])
+              def walk(o):
+                  if isinstance(o,dict):
+                      for k,x in o.items():
+                          yield k,x
+                          yield from walk(x)
+                  elif isinstance(o,list):
+                      for x in o: yield from walk(x)
+              pairs=list(walk(v))
+              for k,x in pairs:
+                  if isinstance(x,str) and re.fullmatch(r"(?:[A-Za-z0-9_-]+/)*[A-Za-z0-9_.-]+\.(?:js|json)",x):
+                      if x.endswith(".js") or "ref" in x.lower():
+                          p=d/x.replace("/","_")
+                          if not p.exists(): get(urllib.parse.urljoin(base,x),p)
+              for k,x in pairs:
+                  if k.lower()=="refflag" and isinstance(x,(str,int)) and re.fullmatch(r"[A-Za-z0-9_.-]+",str(x)):
+                      refbase=base+"ref"+str(x)+"/"
+                      pre=get(refbase+"preRef.json",d/"preRef.json")
+                      if pre:
+                          for i in range(20):
+                              if get(refbase+f"ref{i}.json",d/f"ref{i}.json") is None: break
+              if idx:
+                  for name in set(re.findall(rb'(?:bundle|library)\.[a-fA-F0-9]+\.js',idx)):
+                      n=name.decode()
+                      if not (d/n).exists(): get(base+n,d/n)
+          (root/"report.json").write_text(json.dumps(report,indent=2))
+          print(json.dumps(report,indent=2))
+          PY
+      - name: Upload capture
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: live-patch-capture
+          path: capture/
