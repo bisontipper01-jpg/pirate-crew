@@ -153,6 +153,27 @@ jobs:
           (out/"report.json").write_text(json.dumps(results,indent=2))
           print(json.dumps(results,indent=2))
           PY
+      - name: Extract exact skin models
+        run: |
+          python - <<'PY'
+          import json,pathlib,urllib.request,concurrent.futures
+          m=json.loads(pathlib.Path('capture/en_test/version.json').read_text())
+          ids=['16052006','16070002','16071001']
+          out=pathlib.Path('skin-assets')
+          targets=[(k,v) for k,v in m.items() if isinstance(v,str) and any('roleSkin/'+i in k for i in ids) and not k.endswith('.ktx')]
+          def get(p):
+              k,v=p
+              f=out/k
+              f.parent.mkdir(parents=True,exist_ok=True)
+              with urllib.request.urlopen('https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/'+v,timeout=30) as r: f.write_bytes(r.read())
+          with concurrent.futures.ThreadPoolExecutor(max_workers=12) as ex: list(ex.map(get,targets))
+          print('Skin files',len(targets))
+          PY
+      - name: Upload exact skins
+        uses: actions/upload-artifact@v4
+        with:
+          name: exact-three-skins
+          path: skin-assets/
       - name: Extract changed visual assets
         run: |
           python - <<'PY'
