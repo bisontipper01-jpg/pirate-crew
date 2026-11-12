@@ -2,14 +2,18 @@ name: Live patch capture
 on:
   push:
     branches: [data-mining/live-patch-audit-20261112]
+    paths: ['.github/workflows/live-patch-capture.yml']
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 jobs:
   capture:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: data-mining/live-patch-audit-20261112
       - name: Capture public manifests and resources
         shell: bash
         run: |
@@ -72,3 +76,19 @@ jobs:
         with:
           name: live-patch-capture
           path: capture/
+      - name: Publish capture index
+        if: always()
+        run: |
+          mkdir -p patch-capture-index
+          cp capture/report.json patch-capture-index/report.json
+          for region in en kr; do
+            if test -f "capture/$region/version.json"; then
+              cp "capture/$region/version.json" "patch-capture-index/$region-version.json"
+            fi
+          done
+          printf '%s\n' "$GITHUB_RUN_ID" > patch-capture-index/run-id.txt
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add patch-capture-index
+          git diff --cached --quiet || git commit -m 'Publish live patch capture index'
+          git push origin HEAD:data-mining/live-patch-audit-20261112
