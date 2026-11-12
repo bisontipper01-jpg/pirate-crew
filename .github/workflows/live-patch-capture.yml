@@ -115,6 +115,44 @@ jobs:
           (root/"deployment-report.json").write_text(json.dumps(results,indent=2))
           print(json.dumps(results,indent=2))
           PY
+      - name: Compare candidate public resource manifests
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import urllib.request, json, pathlib, concurrent.futures, hashlib
+          out=pathlib.Path("capture/resource-probes")
+          out.mkdir(exist_ok=True)
+          targets=[]
+          for host,product in [("hwen-cdn.blmarkbsk.xyz","hwen"),("hwkr-cdn.techplmnet.site","hwkr"),("hwen-test-cdn.blmarkbsk.xyz","hwen"),("hwkr-test-cdn.techplmnet.site","hwkr")]:
+              for prefix in (product,product+"_test",product+"-test"):
+                  for channel in ("channel/app","channel/test","channel/audit"):
+                      targets.append("https://"+host+"/"+prefix+"/"+channel+"/version.json")
+          def check(url):
+              result={"url":url}
+              try:
+                  with urllib.request.urlopen(url,timeout=12) as response:
+                      raw=response.read(30000000)
+                      result["status"]=response.status
+                      result["last_modified"]=response.headers.get("Last-Modified")
+                  obj=json.loads(raw)
+                  result["build"]=obj.get("clientVerCode")
+                  result["sha256"]=hashlib.sha256(raw).hexdigest()
+                  if result["build"] is not None:
+                      name=hashlib.sha256(url.encode()).hexdigest()[:16]
+                      (out/(name+".json")).write_bytes(raw)
+                      base=url.rsplit("/",1)[0]
+                      try:
+                          with urllib.request.urlopen(base+"/index.js",timeout=12) as response: index=response.read(1000000)
+                          (out/(name+"-index.js")).write_bytes(index)
+                          result["index"]=index.decode(errors="replace")[:2000]
+                      except Exception as e: result["index_error"]=str(e)
+              except Exception as e: result["error"]=str(e)
+              return result
+          with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+              results=list(pool.map(check,targets))
+          (out/"report.json").write_text(json.dumps(results,indent=2))
+          print(json.dumps(results,indent=2))
+          PY
       - name: Upload capture
         if: always()
         uses: actions/upload-artifact@v4
