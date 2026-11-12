@@ -3,6 +3,9 @@ on:
   push:
     branches: [data-mining/live-patch-audit-20261112]
     paths: ['.github/workflows/live-patch-capture.yml']
+  pull_request:
+    branches: [main]
+    paths: ['.github/workflows/live-patch-capture.yml']
   workflow_dispatch:
 permissions:
   contents: write
@@ -77,7 +80,7 @@ jobs:
           name: live-patch-capture
           path: capture/
       - name: Publish capture index
-        if: always()
+        if: always() && github.event_name != 'pull_request'
         run: |
           mkdir -p patch-capture-index
           cp capture/report.json patch-capture-index/report.json
