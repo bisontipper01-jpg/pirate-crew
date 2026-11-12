@@ -37,7 +37,7 @@ jobs:
               except Exception as e:
                   report.append(dict(url=url,error=str(e)))
                   return None
-          for region,base in [("en","https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/"),("kr","https://hwkr-cdn.techplmnet.site/hwkr/channel/app/")]:
+          for region,base in [("en","https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/"),("kr","https://hwkr-cdn.techplmnet.site/hwkr/channel/app/"),("en_test","https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/")]:
               d=root/region
               d.mkdir()
               raw=get(base+"version.json",d/"version.json")
