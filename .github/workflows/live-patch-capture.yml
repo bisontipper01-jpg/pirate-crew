@@ -78,12 +78,12 @@ jobs:
         run: |
           mkdir -p capture/deployment
           python3 - <<'PY'
-          import urllib.request, urllib.parse, json, pathlib, re, concurrent.futures
+          import urllib.request, urllib.parse, json, pathlib, re, concurrent.futures, time
           root=pathlib.Path("capture/deployment")
           targets=[("en","https://hwen-newgm.blmarkbsk.xyz","hw_en"),("kr","https://hwkr-newgm.techplmnet.site","hw_kr"),("en_test","https://hwen-test-newgm.blmarkbsk.xyz","hw_en_test"),("kr_test","https://hwkr-test-newgm.techplmnet.site","hw_kr_test")]
           def probe(t):
               region,host,product,version=t
-              url=f"{host}/infocenter/static3/{product}/upgrade/json/main/innerdev01.json?app_ver_name={version}"
+              url=f"{host}/infocenter/static3/{product}/upgrade/json/main/com.minipirateclash.googlelb.json?app_ver_name={version}&dt={int(time.time()*1000)}"
               result={"region":region,"url":url}
               try:
                   req=urllib.request.Request(url,data=b"",headers={"User-Agent":"Mozilla/5.0","Content-Type":"application/json"})
@@ -111,7 +111,7 @@ jobs:
               except Exception as e: result["error"]=str(e)
               return result
           with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
-              results=list(pool.map(probe,[(r,h,p,v) for r,h,p in targets for v in ("1.27.0","1.28.0")]))
+              results=list(pool.map(probe,[(r,h,p,v) for r,h,p in targets for v in ("1.0.3","1.27.0","1.28.0")]))
           (root/"deployment-report.json").write_text(json.dumps(results,indent=2))
           print(json.dumps(results,indent=2))
           PY
