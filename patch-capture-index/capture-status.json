@@ -1,0 +1,78 @@
+{
+  "backend": [
+    {
+      "key": "en-1.0.3",
+      "region": "en",
+      "status": "unavailable"
+    },
+    {
+      "key": "en-1.27.0",
+      "region": "en",
+      "status": "unavailable"
+    },
+    {
+      "key": "en-1.28.0",
+      "region": "en",
+      "status": "unavailable"
+    },
+    {
+      "key": "kr-1.0.3",
+      "region": "kr",
+      "status": "unavailable"
+    },
+    {
+      "key": "kr-1.27.0",
+      "region": "kr",
+      "status": "unavailable"
+    },
+    {
+      "key": "kr-1.28.0",
+      "region": "kr",
+      "status": "unavailable"
+    },
+    {
+      "key": "en_test-1.0.3",
+      "region": "en_test",
+      "status": "unavailable"
+    },
+    {
+      "key": "en_test-1.27.0",
+      "region": "en_test",
+      "status": "unavailable"
+    },
+    {
+      "key": "en_test-1.28.0",
+      "region": "en_test",
+      "status": "unavailable"
+    },
+    {
+      "key": "kr_test-1.0.3",
+      "region": "kr_test",
+      "status": "unavailable"
+    },
+    {
+      "key": "kr_test-1.27.0",
+      "region": "kr_test",
+      "status": "unavailable"
+    },
+    {
+      "key": "kr_test-1.28.0",
+      "region": "kr_test",
+      "status": "unavailable"
+    }
+  ],
+  "captured_at": "2026-11-14T13:26:31.568071+00:00",
+  "client": {
+    "en": {
+      "attempted": 92,
+      "status": "verified",
+      "successful": 92
+    },
+    "kr": {
+      "attempted": 92,
+      "status": "verified",
+      "successful": 92
+    }
+  },
+  "run_id": "43599536975"
+}

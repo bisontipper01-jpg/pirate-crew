@@ -1,0 +1,369 @@
+name: Live patch capture
+on:
+  push:
+    branches: [data-mining/live-patch-audit-20261112]
+    paths: ['.github/workflows/live-patch-capture.yml']
+  pull_request:
+    branches: [main]
+    paths: ['.github/workflows/live-patch-capture.yml']
+  workflow_dispatch:
+concurrency:
+  group: live-patch-capture-index
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: data-mining/live-patch-audit-20261112
+      - name: Capture public manifests and resources
+        shell: bash
+        run: |
+          mkdir -p capture
+          python3 - <<'PY'
+          import urllib.request, urllib.parse, json, pathlib, hashlib, re, time
+          root=pathlib.Path("capture")
+          report=[]
+          def get(url, path):
+              try:
+                  req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0","Cache-Control":"no-cache"})
+                  with urllib.request.urlopen(req,timeout=25) as r:
+                      data=r.read(100_000_001)
+                      if len(data)>100_000_000: raise ValueError("resource exceeds cap")
+                      path.write_bytes(data)
+                      report.append(dict(url=url,file=str(path),status=r.status,sha256=hashlib.sha256(data).hexdigest(),size=len(data),last_modified=r.headers.get("Last-Modified")))
+                      return data
+              except Exception as e:
+                  report.append(dict(url=url,error=str(e)))
+                  return None
+          for region,base in [("en","https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/"),("kr","https://hwkr-cdn.techplmnet.site/hwkr/channel/app/"),("en_test","https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/")]:
+              d=root/region
+              d.mkdir()
+              raw=get(base+"version.json",d/"version.json")
+              idx=get(base+"index.js",d/"index.js")
+              if not raw: continue
+              try: v=json.loads(raw)
+              except Exception: continue
+              print(region,json.dumps(v)[:10000])
+              def walk(o):
+                  if isinstance(o,dict):
+                      for k,x in o.items():
+                          yield k,x
+                          yield from walk(x)
+                  elif isinstance(o,list):
+                      for x in o: yield from walk(x)
+              pairs=list(walk(v))
+              for k,x in pairs:
+                  if isinstance(x,str) and re.fullmatch(r"(?:[A-Za-z0-9_-]+/)*[A-Za-z0-9_.-]+\.(?:js|json)",x):
+                      if x.endswith(".js") or "ref" in x.lower():
+                          p=d/x.replace("/","_")
+                          if not p.exists(): get(urllib.parse.urljoin(base,x),p)
+              for k,x in pairs:
+                  if k.lower()=="refflag" and isinstance(x,(str,int)) and re.fullmatch(r"[A-Za-z0-9_.-]+",str(x)):
+                      refbase=base+"ref"+str(x)+"/"
+                      pre=get(refbase+"preRef.json",d/"preRef.json")
+                      if pre:
+                          for i in range(20):
+                              if get(refbase+f"ref{i}.json",d/f"ref{i}.json") is None: break
+              if idx:
+                  for name in set(re.findall(rb'(?:bundle|library)\.[a-fA-F0-9]+\.js',idx)):
+                      n=name.decode()
+                      if not (d/n).exists(): get(base+n,d/n)
+          (root/"report.json").write_text(json.dumps(report,indent=2))
+          print(json.dumps(report,indent=2))
+          PY
+      - name: Inspect public deployment configuration
+        shell: bash
+        run: |
+          mkdir -p capture/deployment
+          python3 - <<'PY'
+          import urllib.request, urllib.parse, json, pathlib, re, concurrent.futures, time
+          root=pathlib.Path("capture/deployment")
+          targets=[("en","https://hwen-newgm.blmarkbsk.xyz","hw_en"),("kr","https://hwkr-newgm.techplmnet.site","hw_kr"),("en_test","https://hwen-test-newgm.blmarkbsk.xyz","hw_en_test"),("kr_test","https://hwkr-test-newgm.techplmnet.site","hw_kr_test")]
+          def probe(t):
+              region,host,product,version=t
+              url=f"{host}/infocenter/static3/{product}/upgrade/json/main/com.minipirateclash.googlelb.json?app_ver_name={version}&dt={int(time.time()*1000)}"
+              result={"region":region,"url":url}
+              try:
+                  req=urllib.request.Request(url,data=b"",headers={"User-Agent":"Mozilla/5.0","Content-Type":"application/json"})
+                  with urllib.request.urlopen(req,timeout=20) as response:
+                      raw=response.read(5000000)
+                      result["status"]=response.status
+                  obj=json.loads(raw)
+                  (root/f"{region}-{version}.json").write_bytes(raw)
+                  cfg=obj.get("resourcesUpdateConfigV3")
+                  result["config"]=cfg
+                  result["publicFields"]={k:v for k,v in obj.items() if k in ("newHouTaiServiceUrl","product","productId","partition","partitionId","sdk","sdkId","paymentChannel","package","packageName")}
+                  def walk(x):
+                      if isinstance(x,dict):
+                          for k,v in x.items():
+                              if k in ("clientPath","clientAuditPath") and isinstance(v,str) and v.startswith("https://"): yield v
+                              yield from walk(v)
+                      elif isinstance(x,list):
+                          for v in x: yield from walk(v)
+                  for i,base in enumerate(set(walk(cfg))):
+                      for name in ("version.json","index.js"):
+                          try:
+                              with urllib.request.urlopen(base.rstrip("/")+"/"+name,timeout=20) as response: data=response.read(20000000)
+                              (root/f"{region}-{version}-{i}-{name}").write_bytes(data)
+                              result.setdefault("resources",[]).append({"base":base,"name":name,"bytes":len(data)})
+                          except Exception as e: result.setdefault("errors",[]).append(str(e))
+              except Exception as e: result["error"]=str(e)
+              return result
+          with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+              results=list(pool.map(probe,[(r,h,p,v) for r,h,p in targets for v in ("1.0.3","1.27.0","1.28.0","1.29.0")]))
+          (root/"deployment-report.json").write_text(json.dumps(results,indent=2))
+          print(json.dumps(results,indent=2))
+          PY
+      - name: Compare candidate public resource manifests
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import urllib.request, json, pathlib, concurrent.futures, hashlib
+          out=pathlib.Path("capture/resource-probes")
+          out.mkdir(exist_ok=True)
+          targets=[]
+          for host,product in [("hwen-cdn.blmarkbsk.xyz","hwen"),("hwkr-cdn.techplmnet.site","hwkr"),("hwen-test-cdn.blmarkbsk.xyz","hwen"),("hwkr-test-cdn.techplmnet.site","hwkr")]:
+              for prefix in (product,product+"_test",product+"-test"):
+                  for channel in ("channel/app","channel/test","channel/audit"):
+                      targets.append("https://"+host+"/"+prefix+"/"+channel+"/version.json")
+          def check(url):
+              result={"url":url}
+              try:
+                  with urllib.request.urlopen(url,timeout=12) as response:
+                      raw=response.read(30000000)
+                      result["status"]=response.status
+                      result["last_modified"]=response.headers.get("Last-Modified")
+                  obj=json.loads(raw)
+                  result["build"]=obj.get("clientVerCode")
+                  result["sha256"]=hashlib.sha256(raw).hexdigest()
+                  if result["build"] is not None:
+                      name=hashlib.sha256(url.encode()).hexdigest()[:16]
+                      (out/(name+".json")).write_bytes(raw)
+                      base=url.rsplit("/",1)[0]
+                      try:
+                          with urllib.request.urlopen(base+"/index.js",timeout=12) as response: index=response.read(1000000)
+                          (out/(name+"-index.js")).write_bytes(index)
+                          result["index"]=index.decode(errors="replace")[:2000]
+                      except Exception as e: result["index_error"]=str(e)
+              except Exception as e: result["error"]=str(e)
+              return result
+          with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+              results=list(pool.map(check,targets))
+          (out/"report.json").write_text(json.dumps(results,indent=2))
+          print(json.dumps(results,indent=2))
+          PY
+      - name: Build verified capture index
+        if: always()
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, hashlib, os, re
+          from datetime import datetime, timezone
+          root=pathlib.Path("capture")
+          idx=pathlib.Path("patch-capture-index")
+          backend=idx/"backend"
+          backend.mkdir(parents=True,exist_ok=True)
+          def read(p,default):
+              return json.loads(p.read_text()) if p.exists() else default
+          def write(p,obj):
+              p.write_text(json.dumps(obj,sort_keys=True,indent=2)+"\n")
+          def sha(obj):
+              return hashlib.sha256(json.dumps(obj,sort_keys=True,separators=(",",":")).encode()).hexdigest()
+          def diff(a,b,p=""):
+              if isinstance(a,dict) and isinstance(b,dict):
+                  out=[]
+                  for k in sorted(a.keys()|b.keys()):
+                      q=p+"/"+k.replace("~","~0").replace("/","~1")
+                      if k not in a: out.append(dict(path=q,op="add",new=b[k]))
+                      elif k not in b: out.append(dict(path=q,op="remove",old=a[k]))
+                      else: out.extend(diff(a[k],b[k],q))
+                  return out
+              return [] if a==b else [dict(path=p,op="replace",old=a,new=b)]
+          run=os.environ["GITHUB_RUN_ID"]
+          now=datetime.now(timezone.utc).isoformat()
+          baseline=read(idx/"verified-baseline.json",{})
+          previous=read(idx/"report.json",[])
+          current=read(root/"report.json",[])
+          deployment=read(root/"deployment/deployment-report.json",[])
+          allowed={"clientPath","clientAuditPath","clientVerCode","clientVerName","version","build","forceUpdate","minVersion","resourceVersion","newHouTaiServiceUrl","product","productId","partition","partitionId","sdk","sdkId","paymentChannel","package","packageName"}
+          def safe(x):
+              if isinstance(x,dict):
+                  out={}
+                  for k,v in x.items():
+                      if isinstance(v,(dict,list)):
+                          z=safe(v)
+                          if z: out[k]=z
+                      elif k in allowed and isinstance(v,(str,int,float,bool)) and not (isinstance(v,str) and ("?" in v or "@" in v)):
+                          out[k]=v
+                  return out
+              if isinstance(x,list): return [z for v in x if isinstance(v,(dict,list)) and (z:=safe(v))]
+              return {}
+          observations=[]; changes=[]
+          for row in deployment:
+              region=row.get("region")
+              m=re.search(r"app_ver_name=([0-9.]+)",row.get("url",""))
+              if region not in ("en","kr","en_test","kr_test") or not m: continue
+              key=region+"-"+m.group(1)
+              cfg=safe({"resourcesUpdateConfigV3":row.get("config"),"publicFields":row.get("publicFields",{})})
+              valid=row.get("status")==200 and bool(cfg)
+              obs=dict(key=key,region=region,status="verified" if valid else "unavailable")
+              if valid:
+                  p=backend/(key+".json")
+                  old=read(p,None)
+                  h=sha(cfg)
+                  obs.update(sha256=h,comparison="initial" if old is None else "unchanged" if old==cfg else "changed")
+                  if old is not None and old!=cfg: changes.append(dict(key=key,region=region,changes=diff(old,cfg)))
+                  write(p,cfg)
+                  baseline.setdefault("backend",{})[key]=dict(sha256=h,run_id=run,verified_at=now)
+              observations.append(obs)
+          write(backend/"deployment-report.json",dict(run_id=run,captured_at=now,observations=observations))
+          write(backend/"backend-diff.json",dict(run_id=run,changes=changes))
+          write(backend/"runtime-config.json",dict(status="not_captured",reason="No verified public gameplay startup endpoint; no authentication or GM commands."))
+          write(backend/"protocol-map.json",dict(status="not_captured",reason="Protocol extraction not implemented."))
+          coverage={}; client_changes=[]
+          for region,base in [("en","https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/"),("kr","https://hwkr-cdn.techplmnet.site/hwkr/channel/app/")]:
+              prefix="capture/"+region+"/"
+              rows=[x for x in current if x.get("file","").startswith(prefix) or x.get("url","").startswith(base)]
+              good=[x for x in rows if x.get("status")==200 and x.get("sha256")]
+              manifest=root/region/"version.json"
+              complete=bool(rows) and len(good)==len(rows) and manifest.exists() and any(x.get("file")==prefix+"version.json" for x in good) and any(re.search(r"/bundle\.[^/]+\.js$",x.get("file","")) for x in good) and any("/ref" in x.get("file","") for x in good)
+              coverage[region]=dict(status="verified" if complete else "incomplete",successful=len(good),attempted=len(rows))
+              if not complete: continue
+              old={x["file"]:x["sha256"] for x in previous if x.get("file","").startswith(prefix) and x.get("sha256")}
+              new={x["file"]:x["sha256"] for x in good}
+              client_changes.append(dict(region=region,initial=not bool(old),changes=diff(old,new) if old else []))
+              previous=[x for x in previous if not x.get("file","").startswith(prefix)]+good
+              (idx/(region+"-version.json")).write_bytes(manifest.read_bytes())
+              baseline.setdefault("client",{})[region]=dict(run_id=run,verified_at=now,manifest_sha256=new[prefix+"version.json"])
+          write(idx/"report.json",previous)
+          write(idx/"verified-baseline.json",baseline)
+          write(idx/"capture-status.json",dict(run_id=run,captured_at=now,client=coverage,backend=observations))
+          write(idx/"client-resource-diff.json",dict(run_id=run,changes=client_changes))
+          if all(v["status"]=="verified" for v in coverage.values()):
+              (idx/"run-id.txt").write_text(run+"\n")
+          PY
+      - name: Inventory client and deployment endpoint references
+        if: always()
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, re, hashlib, os
+          from urllib.parse import urlsplit, urlunsplit
+          root=pathlib.Path("capture")
+          out=pathlib.Path("patch-capture-index/backend")
+          out.mkdir(parents=True,exist_ok=True)
+          fields=("newHouTaiServiceUrl","hw_en","en_google_5","jiheen","com.minipirateclash.googlelb")
+          url_rx=re.compile(r"""(?:https?|wss?)://[A-Za-z0-9.-]+(?::[0-9]{1,5})?(?:/[A-Za-z0-9._~/%{}:-]*)?""",re.I)
+          path_rx=re.compile(r"""["'](/[A-Za-z0-9_-]+(?:/[A-Za-z0-9_.{}:-]+)+)["']""")
+          def clean(u):
+              try:
+                  p=urlsplit(u)
+                  if not p.hostname or p.username or p.password: return None
+                  # Never retain query strings, fragments or likely secret-bearing paths.
+                  if re.search(r"(?:token|secret|password|credential|session|apikey|api_key|signature|authorization)",p.path,re.I): return None
+                  if any(len(x)>64 for x in p.path.split("/")): return None
+                  return urlunsplit((p.scheme,p.netloc,p.path,"",""))
+              except ValueError: return None
+          def category(u):
+              if re.search(r"admin|gm|houtai|payment|pay|login|auth|account",u,re.I): return "restricted_or_unknown"
+              if u.startswith(("ws://","wss://")): return "gameplay_transport"
+              return "unclassified"
+          def scan(region,files):
+              entries={}; hits=[]; sources=[]
+              for f in sorted(files):
+                  raw=f.read_bytes()
+                  src=str(f.relative_to(root))
+                  sources.append(dict(file=src,sha256=hashlib.sha256(raw).hexdigest()))
+                  t=raw.decode("utf-8",errors="replace").replace(r"\/","/")
+                  for m in url_rx.finditer(t):
+                      u=clean(m.group())
+                      if not u: continue
+                      e=entries.setdefault(u,dict(endpoint=u,kind=category(u),access="not_tested",sources=[]))
+                      if src not in e["sources"]: e["sources"].append(src)
+                  if f.suffix==".js":
+                      for m in path_rx.finditer(t):
+                          u=m.group(1)
+                          if re.search(r"token|secret|password|credential|session|apikey|signature",u,re.I) or any(len(x)>64 for x in u.split("/")): continue
+                          e=entries.setdefault(u,dict(endpoint=u,kind="relative_path_candidate",access="not_tested",sources=[]))
+                          if src not in e["sources"]: e["sources"].append(src)
+                  for field in fields:
+                      matches=list(re.finditer(re.escape(field),t))
+                      if matches: hits.append(dict(field=field,file=src,count=len(matches),offsets=[m.start() for m in matches[:100]]))
+              return dict(region=region,sources=sources,endpoints=[entries[k] for k in sorted(entries)],field_occurrences=hits)
+          regions={}
+          for region in ("en","kr","en_test","kr_test"):
+              files=list((root/region).glob("*.js"))
+              files+=list((root/"deployment").glob(region+"-[0-9]*.json"))
+              if files: regions[region]=scan(region,files)
+          report=dict(run_id=os.environ["GITHUB_RUN_ID"],status="observed" if regions else "unavailable",regions=regions,english_identifiers=dict(product="hw_en",partition="en_google_5",sdk="jiheen",package="com.minipirateclash.googlelb",payment_channel=67,administrative_field="newHouTaiServiceUrl"),limitations="Static references only; relative paths may be non-network assets. Dynamic endpoints may be absent. No discovered endpoint is automatically contacted.")
+          p=out/"endpoint-inventory.json"
+          p.write_text(json.dumps(report,indent=2,sort_keys=True)+"\n")
+          PY
+      - name: Extract exact skin models
+        run: |
+          python - <<'PY'
+          import json,pathlib,urllib.request,concurrent.futures
+          m=json.loads(pathlib.Path('capture/en_test/version.json').read_text())
+          ids=['16052006','16070002','16071001']
+          out=pathlib.Path('skin-assets')
+          targets=[(k,v) for k,v in m.items() if isinstance(v,str) and any('roleSkin/'+i in k for i in ids) and not k.endswith('.ktx')]
+          def get(p):
+              k,v=p
+              f=out/k
+              f.parent.mkdir(parents=True,exist_ok=True)
+              with urllib.request.urlopen('https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/'+v,timeout=30) as r: f.write_bytes(r.read())
+          with concurrent.futures.ThreadPoolExecutor(max_workers=12) as ex: list(ex.map(get,targets))
+          print('Skin files',len(targets))
+          PY
+      - name: Upload exact skins
+        uses: actions/upload-artifact@v4
+        with:
+          name: exact-three-skins
+          path: skin-assets/
+      - name: Extract changed visual assets
+        run: |
+          python - <<'PY'
+          import json,pathlib,urllib.request,concurrent.futures
+          root=pathlib.Path('capture')
+          old=json.loads((root/'en/version.json').read_text())
+          new=json.loads((root/'en_test/version.json').read_text())
+          base='https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/'
+          out=pathlib.Path('visual-assets')
+          targets=[(k,v) for k,v in new.items() if isinstance(v,str) and old.get(k)!=v and k.lower().endswith(('.png','.jpg','.jpeg','.webp','.atlas','.sk'))]
+          def get(pair):
+              k,v=pair
+              try:
+                  p=out/k
+                  p.parent.mkdir(parents=True,exist_ok=True)
+                  with urllib.request.urlopen(base+v,timeout=30) as r: p.write_bytes(r.read())
+                  return [k,v,p.stat().st_size,None]
+              except Exception as e: return [k,v,0,str(e)]
+          with concurrent.futures.ThreadPoolExecutor(max_workers=16) as ex: results=list(ex.map(get,targets))
+          out.mkdir(exist_ok=True)
+          (out/'download-report.json').write_text(json.dumps(results,ensure_ascii=False))
+          print('Visual assets:',len(results),'successful:',sum(x[3] is None for x in results))
+          PY
+      - name: Upload visual assets
+        uses: actions/upload-artifact@v4
+        with:
+          name: staged-35194-visual-assets
+          path: visual-assets/
+      - name: Upload capture
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: live-patch-capture
+          path: capture/
+      - name: Publish capture index
+        if: always() && github.event_name != 'pull_request'
+        run: |
+          mkdir -p patch-capture-index
+          test -f patch-capture-index/capture-status.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add patch-capture-index
+          git diff --cached --quiet || git commit -m 'Publish live patch capture index'
+          git push origin HEAD:data-mining/live-patch-audit-20261112
