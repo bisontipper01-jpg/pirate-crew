@@ -1,2210 +1,2210 @@
 [
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/version.json",
-    "file": "capture/en/version.json",
-    "status": 200,
-    "sha256": "b0c48905b9ea94870035599b8ae9a05326483b57dc5f0c28e0bca710040cc11d",
-    "size": 9202430,
-    "last_modified": "Fri, 06 Nov 2026 08:15:03 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/index.js",
-    "file": "capture/en/index.js",
-    "status": 200,
-    "sha256": "17b128c1d4d7bbed2a7a0d6958fa304712a93ed00a7b6c11ab4b5652a229ff5a",
-    "size": 492,
-    "last_modified": "Fri, 06 Nov 2026 08:15:03 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/prefab/common/BottomStyle0.f750bf.json",
-    "file": "capture/en/prefab_common_BottomStyle0.f750bf.json",
-    "status": 200,
-    "sha256": "dda7bed14aa574cea13bf62c59a29f3fbea989403c558708c2fb2f2273b34c5d",
-    "size": 795,
-    "last_modified": "Mon, 26 Oct 2026 06:46:50 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/prefab/common/DialogStyle0.ac165d.json",
-    "file": "capture/en/prefab_common_DialogStyle0.ac165d.json",
-    "status": 200,
-    "sha256": "8e9c7c35a92721a108660ad971b126ecb6ac166283b77c4bed79c339e668b2ce",
-    "size": 771,
-    "last_modified": "Mon, 26 Oct 2026 06:46:50 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/prefab/common/DialogStyle1.1a7eb4.json",
-    "file": "capture/en/prefab_common_DialogStyle1.1a7eb4.json",
-    "status": 200,
-    "sha256": "b6843f05bae149b123b2bba03405244e3bfa9dd18ed386571bc537789746f612",
-    "size": 1132,
-    "last_modified": "Mon, 26 Oct 2026 06:46:50 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/prefab/common/GoodsCost.d76fe4.json",
-    "file": "capture/en/prefab_common_GoodsCost.d76fe4.json",
-    "status": 200,
-    "sha256": "22bce4b6f18da5fdef30e9cfb89295891257113889352d298522dfadd759bf43",
-    "size": 1038,
-    "last_modified": "Mon, 26 Oct 2026 06:46:50 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/prefab/common/HTMLExt.c88b82.json",
-    "file": "capture/en/prefab_common_HTMLExt.c88b82.json",
-    "status": 200,
-    "sha256": "270a9fd8dd2e67d62dbf5fbb8d5d27d1d00b84ed10e792959f006831e09ec4d6",
-    "size": 273,
-    "last_modified": "Mon, 26 Oct 2026 06:46:50 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/prefab/common/ResStyle0.8d27ca.json",
-    "file": "capture/en/prefab_common_ResStyle0.8d27ca.json",
-    "status": 200,
-    "sha256": "9c8b465e7066d6542dac556311d54b148bddc9e96b489504da1173f5b8e5ce2b",
-    "size": 854,
-    "last_modified": "Mon, 26 Oct 2026 06:46:50 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/prefab/MapPrefab.3f11b9.json",
-    "file": "capture/en/prefab_MapPrefab.3f11b9.json",
-    "status": 200,
-    "sha256": "d28bad712afee0fba64c3274d27c61337931c93a733100ce2fa6ff76ef7c2d02",
-    "size": 734,
-    "last_modified": "Mon, 26 Oct 2026 06:46:50 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/prefab/Stronger.31eb18.json",
-    "file": "capture/en/prefab_Stronger.31eb18.json",
-    "status": 200,
-    "sha256": "dea1944893c8895e60c11ce822a2795f31c80da7e2de0f94e58c43b4d9e858ba",
-    "size": 2676,
-    "last_modified": "Mon, 26 Oct 2026 06:46:50 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/ref/preRef.a443e7.json",
-    "file": "capture/en/ref_preRef.a443e7.json",
-    "status": 200,
-    "sha256": "2e1eb7eca54ffa48ac156907e19e9981886b83efb91a49714f912e3fee7ef198",
-    "size": 845598,
-    "last_modified": "Fri, 06 Nov 2026 07:58:56 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/ref/ref0.6306dc.json",
-    "file": "capture/en/ref_ref0.6306dc.json",
-    "status": 200,
-    "sha256": "f1da1b37410f2e2d014b5bbd74218004af775c86d5ef1e8a04ca1077b6bc1732",
-    "size": 1012654,
-    "last_modified": "Fri, 06 Nov 2026 06:17:41 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/ref/ref1.365920.json",
-    "file": "capture/en/ref_ref1.365920.json",
-    "status": 200,
-    "sha256": "4bc8c9d99c118dcc1898269caaf1a43e4a16fd35a99d08eadd72e42921ba0485",
-    "size": 875569,
-    "last_modified": "Fri, 06 Nov 2026 06:17:41 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/ref/ref2.827c4b.json",
-    "file": "capture/en/ref_ref2.827c4b.json",
-    "status": 200,
-    "sha256": "dfa257fb4932fa8d8a83a959d87d18a9c52537b34ac67dc2bd0eb326a3555671",
-    "size": 995658,
-    "last_modified": "Fri, 06 Nov 2026 06:27:06 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/ref/ref3.c162c5.json",
-    "file": "capture/en/ref_ref3.c162c5.json",
-    "status": 200,
-    "sha256": "63a5c71d60eed0f8b8cf490eebeaa4361862138b49bc389d4c74b56e3727b5a1",
-    "size": 140554,
-    "last_modified": "Fri, 06 Nov 2026 06:17:41 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/ref/ref4.e269a4.json",
-    "file": "capture/en/ref_ref4.e269a4.json",
-    "status": 200,
-    "sha256": "a9b302c07e71f3813ec2dd224b3a560ae8b7335f03b9c7fab93d6b1666d8b4dd",
-    "size": 4517176,
-    "last_modified": "Thu, 29 Oct 2026 04:24:27 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/ref/ref5.c903f7.json",
-    "file": "capture/en/ref_ref5.c903f7.json",
-    "status": 200,
-    "sha256": "c75b906f7f9f368c05a1006ad08ce7c5ee31fabc5e3526c8051b219adca6b526",
-    "size": 811152,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/ref/ref6.e58ce1.json",
-    "file": "capture/en/ref_ref6.e58ce1.json",
-    "status": 200,
-    "sha256": "2ee4600a49b2f98d668c9a7aa3fa8c4c15db6d198ce99620f50e1118d012f357",
-    "size": 1021783,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/ref/ref7.291fd8.json",
-    "file": "capture/en/ref_ref7.291fd8.json",
-    "status": 200,
-    "sha256": "d6485b478cd0d962877aa5f148af027f383713503ec2343358af81e039e439a7",
-    "size": 1029062,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/ref/ref8.616bd0.json",
-    "file": "capture/en/ref_ref8.616bd0.json",
-    "status": 200,
-    "sha256": "961ddb32eec9819693e1b8f476dcdd90934cd2f03147e1a82cd601c3a1c74ea4",
-    "size": 1045370,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/ref/ref9.ba4847.json",
-    "file": "capture/en/ref_ref9.ba4847.json",
-    "status": 200,
-    "sha256": "fc048dca55f0ed37458c7ee4da7c1d4a7ff7e5ec5b935882fa272c38a285e462",
-    "size": 130336,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/ref/ShieldWordRef.82ee36.json",
-    "file": "capture/en/ref_ShieldWordRef.82ee36.json",
-    "status": 200,
-    "sha256": "8ae8608a5b14b718e07195d4d1a3d840f7ad354d1bd37554dea9d8fccb8a6a3b",
-    "size": 1427185,
-    "last_modified": "Mon, 26 Oct 2026 06:46:50 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCn/preRef.220f89.json",
-    "file": "capture/en/refCn_preRef.220f89.json",
-    "status": 200,
-    "sha256": "3373fa354262169516a8749d462b33bf76b3c36f9fa4f87d95ad6422f2b16932",
-    "size": 845596,
-    "last_modified": "Fri, 06 Nov 2026 07:58:56 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCn/ref0.6306dc.json",
-    "file": "capture/en/refCn_ref0.6306dc.json",
-    "status": 200,
-    "sha256": "f1da1b37410f2e2d014b5bbd74218004af775c86d5ef1e8a04ca1077b6bc1732",
-    "size": 1012654,
-    "last_modified": "Fri, 06 Nov 2026 06:17:41 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCn/ref1.77c29d.json",
-    "file": "capture/en/refCn_ref1.77c29d.json",
-    "status": 200,
-    "sha256": "fc987afb58074b8c5ec7b6a7aa4b53100ccda2c564aac87e944dfd860d696a3e",
-    "size": 895411,
-    "last_modified": "Fri, 06 Nov 2026 06:17:41 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCn/ref2.827c4b.json",
-    "file": "capture/en/refCn_ref2.827c4b.json",
-    "status": 200,
-    "sha256": "dfa257fb4932fa8d8a83a959d87d18a9c52537b34ac67dc2bd0eb326a3555671",
-    "size": 995658,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCn/ref3.2b1f85.json",
-    "file": "capture/en/refCn_ref3.2b1f85.json",
-    "status": 200,
-    "sha256": "b2f362e91578ba7845088305d7294991bda44181d25c587df608e80dbcbe460a",
-    "size": 140183,
-    "last_modified": "Fri, 06 Nov 2026 06:17:41 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCn/ref4.e269a4.json",
-    "file": "capture/en/refCn_ref4.e269a4.json",
-    "status": 200,
-    "sha256": "a9b302c07e71f3813ec2dd224b3a560ae8b7335f03b9c7fab93d6b1666d8b4dd",
-    "size": 4517176,
-    "last_modified": "Thu, 29 Oct 2026 04:24:27 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCn/ref5.4a24dd.json",
-    "file": "capture/en/refCn_ref5.4a24dd.json",
-    "status": 200,
-    "sha256": "93219ae810887698c7fbc370159a7f860b029a4f54a6dfe8ef4a158bc32441d9",
-    "size": 812271,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCn/ref6.e58ce1.json",
-    "file": "capture/en/refCn_ref6.e58ce1.json",
-    "status": 200,
-    "sha256": "2ee4600a49b2f98d668c9a7aa3fa8c4c15db6d198ce99620f50e1118d012f357",
-    "size": 1021783,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCn/ref7.1a562d.json",
-    "file": "capture/en/refCn_ref7.1a562d.json",
-    "status": 200,
-    "sha256": "376464b9b4c068bd4728eb6acc8aea18aa6ec1df1a33f1189fad752f4ffb20fc",
-    "size": 1030822,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCn/ref8.75f15a.json",
-    "file": "capture/en/refCn_ref8.75f15a.json",
-    "status": 200,
-    "sha256": "bbb70b7adef2893c29df4f97650ee00521e53bf2f1d9982f1574f9a8ccff1204",
-    "size": 1047530,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCn/ref9.ba4847.json",
-    "file": "capture/en/refCn_ref9.ba4847.json",
-    "status": 200,
-    "sha256": "fc048dca55f0ed37458c7ee4da7c1d4a7ff7e5ec5b935882fa272c38a285e462",
-    "size": 130336,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCn/ShieldWordRef.69feda.json",
-    "file": "capture/en/refCn_ShieldWordRef.69feda.json",
-    "status": 200,
-    "sha256": "678143715a0453c4fce77d708e56e9edf82a5a370e4a62af8256f978b057a072",
-    "size": 1427185,
-    "last_modified": "Mon, 26 Oct 2026 06:46:51 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCnMg/preRef.de104b.json",
-    "file": "capture/en/refCnMg_preRef.de104b.json",
-    "status": 200,
-    "sha256": "081015f49a52c0bb12429550057769e21d0f8197ad5daa5b3cb2663d18829672",
-    "size": 845638,
-    "last_modified": "Fri, 06 Nov 2026 08:15:03 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCnMg/ref0.761ab6.json",
-    "file": "capture/en/refCnMg_ref0.761ab6.json",
-    "status": 200,
-    "sha256": "4a54f96cbd7d53c516b45fe90c4248f72090af2713ad30fa9afd50d25c138bf3",
-    "size": 1012687,
-    "last_modified": "Fri, 06 Nov 2026 06:17:41 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCnMg/ref1.5d9918.json",
-    "file": "capture/en/refCnMg_ref1.5d9918.json",
-    "status": 200,
-    "sha256": "423ef5432afefafdce30c805d15db7e57a333890342462a6e2697f43d30d1d43",
-    "size": 895373,
-    "last_modified": "Fri, 06 Nov 2026 06:17:41 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCnMg/ref2.827c4b.json",
-    "file": "capture/en/refCnMg_ref2.827c4b.json",
-    "status": 200,
-    "sha256": "dfa257fb4932fa8d8a83a959d87d18a9c52537b34ac67dc2bd0eb326a3555671",
-    "size": 995658,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCnMg/ref3.dd3a4c.json",
-    "file": "capture/en/refCnMg_ref3.dd3a4c.json",
-    "status": 200,
-    "sha256": "edc4e9777544aece203c0c5b8e018d0dc00da4e9354ecfcaec6071764984c23e",
-    "size": 140171,
-    "last_modified": "Fri, 06 Nov 2026 06:17:41 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCnMg/ref4.e269a4.json",
-    "file": "capture/en/refCnMg_ref4.e269a4.json",
-    "status": 200,
-    "sha256": "a9b302c07e71f3813ec2dd224b3a560ae8b7335f03b9c7fab93d6b1666d8b4dd",
-    "size": 4517176,
-    "last_modified": "Thu, 29 Oct 2026 04:24:28 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCnMg/ref5.94699e.json",
-    "file": "capture/en/refCnMg_ref5.94699e.json",
-    "status": 200,
-    "sha256": "8ff025c7aca4ceb547250760295c9d6555395515f2172aa573290d3d5860fa2d",
-    "size": 810780,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCnMg/ref6.67e51b.json",
-    "file": "capture/en/refCnMg_ref6.67e51b.json",
-    "status": 200,
-    "sha256": "5b04b7778412e7e415956d8ed26cba55737a74f50422279cbe69ba5a1b92e3e4",
-    "size": 1021159,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCnMg/ref7.c0447f.json",
-    "file": "capture/en/refCnMg_ref7.c0447f.json",
-    "status": 200,
-    "sha256": "fb464107b4ef3a3ccc5c3c7ed9e353e6b7d7e2acbfcb7df3e02a802cbe656f08",
-    "size": 1030186,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCnMg/ref8.04e3d8.json",
-    "file": "capture/en/refCnMg_ref8.04e3d8.json",
-    "status": 200,
-    "sha256": "a945df1dae2126f49dccbd49ae8506b9cd03ca9783f1ca374b43f3292d6ad2f5",
-    "size": 1041393,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCnMg/ref9.b30a75.json",
-    "file": "capture/en/refCnMg_ref9.b30a75.json",
-    "status": 200,
-    "sha256": "a8741de71d0b04f57b82c6f24d2261d6e0171befd6c936a63dee154ec2d77ab1",
-    "size": 130447,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCnMg/ShieldWordRef.d3adef.json",
-    "file": "capture/en/refCnMg_ShieldWordRef.d3adef.json",
-    "status": 200,
-    "sha256": "eeb050e8489b4bbebd08906e6c68fbcdfd8a10908189036058b81b5dfd8f129c",
-    "size": 1427185,
-    "last_modified": "Mon, 26 Oct 2026 07:22:20 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEn/preRef.e9127a.json",
-    "file": "capture/en/refEn_preRef.e9127a.json",
-    "status": 200,
-    "sha256": "0cc72730338b4940a738dd67d07f8720969ebef053c39bb808db2421af895a6f",
-    "size": 845596,
-    "last_modified": "Fri, 06 Nov 2026 08:15:03 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEn/ref0.6306dc.json",
-    "file": "capture/en/refEn_ref0.6306dc.json",
-    "status": 200,
-    "sha256": "f1da1b37410f2e2d014b5bbd74218004af775c86d5ef1e8a04ca1077b6bc1732",
-    "size": 1012654,
-    "last_modified": "Fri, 06 Nov 2026 06:17:41 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEn/ref1.365920.json",
-    "file": "capture/en/refEn_ref1.365920.json",
-    "status": 200,
-    "sha256": "4bc8c9d99c118dcc1898269caaf1a43e4a16fd35a99d08eadd72e42921ba0485",
-    "size": 875569,
-    "last_modified": "Fri, 06 Nov 2026 06:17:41 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEn/ref2.827c4b.json",
-    "file": "capture/en/refEn_ref2.827c4b.json",
-    "status": 200,
-    "sha256": "dfa257fb4932fa8d8a83a959d87d18a9c52537b34ac67dc2bd0eb326a3555671",
-    "size": 995658,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEn/ref3.2b1f85.json",
-    "file": "capture/en/refEn_ref3.2b1f85.json",
-    "status": 200,
-    "sha256": "b2f362e91578ba7845088305d7294991bda44181d25c587df608e80dbcbe460a",
-    "size": 140183,
-    "last_modified": "Fri, 06 Nov 2026 06:17:41 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEn/ref4.e269a4.json",
-    "file": "capture/en/refEn_ref4.e269a4.json",
-    "status": 200,
-    "sha256": "a9b302c07e71f3813ec2dd224b3a560ae8b7335f03b9c7fab93d6b1666d8b4dd",
-    "size": 4517176,
-    "last_modified": "Thu, 29 Oct 2026 04:24:28 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEn/ref5.c903f7.json",
-    "file": "capture/en/refEn_ref5.c903f7.json",
-    "status": 200,
-    "sha256": "c75b906f7f9f368c05a1006ad08ce7c5ee31fabc5e3526c8051b219adca6b526",
-    "size": 811152,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEn/ref6.e58ce1.json",
-    "file": "capture/en/refEn_ref6.e58ce1.json",
-    "status": 200,
-    "sha256": "2ee4600a49b2f98d668c9a7aa3fa8c4c15db6d198ce99620f50e1118d012f357",
-    "size": 1021783,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEn/ref7.291fd8.json",
-    "file": "capture/en/refEn_ref7.291fd8.json",
-    "status": 200,
-    "sha256": "d6485b478cd0d962877aa5f148af027f383713503ec2343358af81e039e439a7",
-    "size": 1029062,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEn/ref8.616bd0.json",
-    "file": "capture/en/refEn_ref8.616bd0.json",
-    "status": 200,
-    "sha256": "961ddb32eec9819693e1b8f476dcdd90934cd2f03147e1a82cd601c3a1c74ea4",
-    "size": 1045370,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEn/ref9.ba4847.json",
-    "file": "capture/en/refEn_ref9.ba4847.json",
-    "status": 200,
-    "sha256": "fc048dca55f0ed37458c7ee4da7c1d4a7ff7e5ec5b935882fa272c38a285e462",
-    "size": 130336,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEn/ShieldWordRef.cc8ea0.json",
-    "file": "capture/en/refEn_ShieldWordRef.cc8ea0.json",
-    "status": 200,
-    "sha256": "17bea8729399fd482703704ad33d29ffb211a75474b04124850f87eda9d5b143",
-    "size": 1427185,
-    "last_modified": "Mon, 26 Oct 2026 06:46:51 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEnMg/preRef.220f89.json",
-    "file": "capture/en/refEnMg_preRef.220f89.json",
-    "status": 200,
-    "sha256": "3373fa354262169516a8749d462b33bf76b3c36f9fa4f87d95ad6422f2b16932",
-    "size": 845596,
-    "last_modified": "Fri, 06 Nov 2026 07:58:56 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEnMg/ref0.6306dc.json",
-    "file": "capture/en/refEnMg_ref0.6306dc.json",
-    "status": 200,
-    "sha256": "f1da1b37410f2e2d014b5bbd74218004af775c86d5ef1e8a04ca1077b6bc1732",
-    "size": 1012654,
-    "last_modified": "Fri, 06 Nov 2026 06:17:42 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEnMg/ref1.365920.json",
-    "file": "capture/en/refEnMg_ref1.365920.json",
-    "status": 200,
-    "sha256": "4bc8c9d99c118dcc1898269caaf1a43e4a16fd35a99d08eadd72e42921ba0485",
-    "size": 875569,
-    "last_modified": "Fri, 06 Nov 2026 06:17:42 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEnMg/ref2.827c4b.json",
-    "file": "capture/en/refEnMg_ref2.827c4b.json",
-    "status": 200,
-    "sha256": "dfa257fb4932fa8d8a83a959d87d18a9c52537b34ac67dc2bd0eb326a3555671",
-    "size": 995658,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEnMg/ref3.2b1f85.json",
-    "file": "capture/en/refEnMg_ref3.2b1f85.json",
-    "status": 200,
-    "sha256": "b2f362e91578ba7845088305d7294991bda44181d25c587df608e80dbcbe460a",
-    "size": 140183,
-    "last_modified": "Fri, 06 Nov 2026 06:17:42 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEnMg/ref4.e269a4.json",
-    "file": "capture/en/refEnMg_ref4.e269a4.json",
-    "status": 200,
-    "sha256": "a9b302c07e71f3813ec2dd224b3a560ae8b7335f03b9c7fab93d6b1666d8b4dd",
-    "size": 4517176,
-    "last_modified": "Thu, 29 Oct 2026 04:24:28 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEnMg/ref5.c903f7.json",
-    "file": "capture/en/refEnMg_ref5.c903f7.json",
-    "status": 200,
-    "sha256": "c75b906f7f9f368c05a1006ad08ce7c5ee31fabc5e3526c8051b219adca6b526",
-    "size": 811152,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEnMg/ref6.e58ce1.json",
-    "file": "capture/en/refEnMg_ref6.e58ce1.json",
-    "status": 200,
-    "sha256": "2ee4600a49b2f98d668c9a7aa3fa8c4c15db6d198ce99620f50e1118d012f357",
-    "size": 1021783,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEnMg/ref7.291fd8.json",
-    "file": "capture/en/refEnMg_ref7.291fd8.json",
-    "status": 200,
-    "sha256": "d6485b478cd0d962877aa5f148af027f383713503ec2343358af81e039e439a7",
-    "size": 1029062,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEnMg/ref8.616bd0.json",
-    "file": "capture/en/refEnMg_ref8.616bd0.json",
-    "status": 200,
-    "sha256": "961ddb32eec9819693e1b8f476dcdd90934cd2f03147e1a82cd601c3a1c74ea4",
-    "size": 1045370,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEnMg/ref9.ba4847.json",
-    "file": "capture/en/refEnMg_ref9.ba4847.json",
-    "status": 200,
-    "sha256": "fc048dca55f0ed37458c7ee4da7c1d4a7ff7e5ec5b935882fa272c38a285e462",
-    "size": 130336,
-    "last_modified": "Fri, 06 Nov 2026 06:27:07 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEnMg/ShieldWordRef.cc8ea0.json",
-    "file": "capture/en/refEnMg_ShieldWordRef.cc8ea0.json",
-    "status": 200,
-    "sha256": "17bea8729399fd482703704ad33d29ffb211a75474b04124850f87eda9d5b143",
-    "size": 1427185,
-    "last_modified": "Mon, 26 Oct 2026 06:46:52 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMg/preRef.cca0e1.json",
-    "file": "capture/en/refMg_preRef.cca0e1.json",
-    "status": 200,
-    "sha256": "5d483a32a4f0761472c7ad310f902aae36df6d0e8f5fde42d11a2bc9e1627228",
-    "size": 840275,
-    "last_modified": "Tue, 03 Nov 2026 03:55:28 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMg/ref0.23e244.json",
-    "file": "capture/en/refMg_ref0.23e244.json",
-    "status": 200,
-    "sha256": "ebb6c1d02e99f38c85cb9fdca7f0b867c37e85c4c254751e4bcc0f74a9b2b593",
-    "size": 983389,
-    "last_modified": "Tue, 03 Nov 2026 03:55:28 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMg/ref1.444dc6.json",
-    "file": "capture/en/refMg_ref1.444dc6.json",
-    "status": 200,
-    "sha256": "bfbb7e7fefc92d5f3b1068c5b9c46e848600f170a0049a752b78ec8a99fad03f",
-    "size": 810659,
-    "last_modified": "Tue, 03 Nov 2026 03:55:28 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMg/ref2.977d97.json",
-    "file": "capture/en/refMg_ref2.977d97.json",
-    "status": 200,
-    "sha256": "a24a055b369655f25cc0cdf1d0ece8533d0fc60d12e756a480c8dcd3d7765601",
-    "size": 1041640,
-    "last_modified": "Tue, 03 Nov 2026 03:55:28 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMg/ref3.2449d4.json",
-    "file": "capture/en/refMg_ref3.2449d4.json",
-    "status": 200,
-    "sha256": "cfb7cedd628b06a27281b72a69443accf5e74370d79d7f0228028d101ab88687",
-    "size": 3428427,
-    "last_modified": "Tue, 03 Nov 2026 03:55:28 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMg/ref4.6e7d74.json",
-    "file": "capture/en/refMg_ref4.6e7d74.json",
-    "status": 200,
-    "sha256": "b71ce1f3772278719b21a7249e1464f9559273734a00d367b9e04aa087f51d7b",
-    "size": 802474,
-    "last_modified": "Tue, 03 Nov 2026 03:55:28 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMg/ref5.ae31af.json",
-    "file": "capture/en/refMg_ref5.ae31af.json",
-    "status": 200,
-    "sha256": "67d6960f51bc2db9ac23e19bbad8fbd22d8fb8c6c8b169da7b0f15bc6d8a0ae4",
-    "size": 1045462,
-    "last_modified": "Tue, 03 Nov 2026 03:55:28 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMg/ref6.e30374.json",
-    "file": "capture/en/refMg_ref6.e30374.json",
-    "status": 200,
-    "sha256": "49986a4c5af270238f17e693343545b772d82d42c42907e685fdfbe15ea93360",
-    "size": 980553,
-    "last_modified": "Tue, 03 Nov 2026 03:55:28 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMg/ref7.6029b5.json",
-    "file": "capture/en/refMg_ref7.6029b5.json",
-    "status": 200,
-    "sha256": "437df4fcf1c48d5e0ee4f7f641f1c896e6b67c6ce5d291c43fa99631b1dcde1b",
-    "size": 896043,
-    "last_modified": "Tue, 03 Nov 2026 03:55:28 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMg/ShieldWordRef.7da490.json",
-    "file": "capture/en/refMg_ShieldWordRef.7da490.json",
-    "status": 200,
-    "sha256": "e5d8dcbf4e6a3350ba193a46d5cf40ade11368209d4c55bca3be428e5bdc0536",
-    "size": 1427185,
-    "last_modified": "Tue, 03 Nov 2026 03:55:28 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMgA/preRef.b653bc.json",
-    "file": "capture/en/refMgA_preRef.b653bc.json",
-    "status": 200,
-    "sha256": "b80a0229517eb5fe6f2b461d28412f11142b21b360f3b2533c4fafcebf821105",
-    "size": 729941,
-    "last_modified": "Fri, 06 Nov 2026 08:15:03 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMgA/ref0.eb44eb.json",
-    "file": "capture/en/refMgA_ref0.eb44eb.json",
-    "status": 200,
-    "sha256": "2fd15ceffb689a0a2adf815438e9c96de79fbbd3e4ac017e4fbc8d9767fad60d",
-    "size": 1048913,
-    "last_modified": "Mon, 26 Oct 2026 06:46:53 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMgA/ref1.00ffbd.json",
-    "file": "capture/en/refMgA_ref1.00ffbd.json",
-    "status": 200,
-    "sha256": "0cd6ff279c9a2f1b9e8109c5d35247684c9dcad16ca5fa0bea9cff5e6e4e7934",
-    "size": 885605,
-    "last_modified": "Mon, 26 Oct 2026 06:46:53 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMgA/ref2.9a3357.json",
-    "file": "capture/en/refMgA_ref2.9a3357.json",
-    "status": 200,
-    "sha256": "f6b00b9d947bd039ed091f5e6e5ee1c03c5b76930d9337a7ba560d96a11e56b7",
-    "size": 429444,
-    "last_modified": "Mon, 26 Oct 2026 06:46:53 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMgA/ref3.f44d80.json",
-    "file": "capture/en/refMgA_ref3.f44d80.json",
-    "status": 200,
-    "sha256": "20c1f520d004d98c3d72890a8e5f76b6d42083d273537895084fce307192b30a",
-    "size": 3382490,
-    "last_modified": "Mon, 26 Oct 2026 06:46:53 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMgA/ref4.d29798.json",
-    "file": "capture/en/refMgA_ref4.d29798.json",
-    "status": 200,
-    "sha256": "1e0a4fcf08a19f79989c9f5604386c6694d231abd1489cfacd7b1e5cdd7d2912",
-    "size": 765135,
-    "last_modified": "Mon, 26 Oct 2026 06:46:53 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMgA/ref5.f34e92.json",
-    "file": "capture/en/refMgA_ref5.f34e92.json",
-    "status": 200,
-    "sha256": "8cb80cac86c365116e3bb7bdb4909ba09bd628ece97800cac6703300c6506c51",
-    "size": 1042392,
-    "last_modified": "Mon, 26 Oct 2026 06:46:53 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMgA/ref6.e38a8f.json",
-    "file": "capture/en/refMgA_ref6.e38a8f.json",
-    "status": 200,
-    "sha256": "2ad09d7238f91a25ab416d509648f6063105a68948494dca2448bbd119aa0216",
-    "size": 1000621,
-    "last_modified": "Mon, 26 Oct 2026 06:46:53 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMgA/ref7.49cc35.json",
-    "file": "capture/en/refMgA_ref7.49cc35.json",
-    "status": 200,
-    "sha256": "a015109ffef2dbc3be5cac826bb11557dffa0dd6b87fafa03048bbf4148eebf3",
-    "size": 659998,
-    "last_modified": "Mon, 26 Oct 2026 06:46:53 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMgA/ShieldWordRef.36e278.json",
-    "file": "capture/en/refMgA_ShieldWordRef.36e278.json",
-    "status": 200,
-    "sha256": "5edcfa46f5894af3a4d91591bffd93e924943d46d15afd73ec0dea6cafeafeef",
-    "size": 1427185,
-    "last_modified": "Mon, 26 Oct 2026 06:46:53 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/library.4c6181.js",
-    "file": "capture/en/library.4c6181.js",
-    "status": 200,
-    "sha256": "8b3366c45d54dac10d4f92bbb992ff323fa164d4952b38cc9b80c41cb8db8d91",
-    "size": 757256,
-    "last_modified": "Mon, 26 Oct 2026 06:51:10 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/bundle.c55b0e.js",
-    "file": "capture/en/bundle.c55b0e.js",
-    "status": 200,
-    "sha256": "344708db336400797439db305252cefe72cadd22da8b668459a4a6cef16b78c5",
-    "size": 6809546,
-    "last_modified": "Fri, 06 Nov 2026 08:15:03 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/version.json",
-    "file": "capture/kr/version.json",
-    "status": 200,
-    "sha256": "b0c48905b9ea94870035599b8ae9a05326483b57dc5f0c28e0bca710040cc11d",
-    "size": 9202430,
-    "last_modified": "Fri, 06 Nov 2026 08:14:24 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/index.js",
-    "file": "capture/kr/index.js",
-    "status": 200,
-    "sha256": "17b128c1d4d7bbed2a7a0d6958fa304712a93ed00a7b6c11ab4b5652a229ff5a",
-    "size": 492,
-    "last_modified": "Fri, 06 Nov 2026 08:14:24 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/prefab/common/BottomStyle0.f750bf.json",
-    "file": "capture/kr/prefab_common_BottomStyle0.f750bf.json",
-    "status": 200,
-    "sha256": "dda7bed14aa574cea13bf62c59a29f3fbea989403c558708c2fb2f2273b34c5d",
-    "size": 795,
-    "last_modified": "Mon, 26 Oct 2026 06:37:30 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/prefab/common/DialogStyle0.ac165d.json",
-    "file": "capture/kr/prefab_common_DialogStyle0.ac165d.json",
-    "status": 200,
-    "sha256": "8e9c7c35a92721a108660ad971b126ecb6ac166283b77c4bed79c339e668b2ce",
-    "size": 771,
-    "last_modified": "Mon, 26 Oct 2026 06:37:30 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/prefab/common/DialogStyle1.1a7eb4.json",
-    "file": "capture/kr/prefab_common_DialogStyle1.1a7eb4.json",
-    "status": 200,
-    "sha256": "b6843f05bae149b123b2bba03405244e3bfa9dd18ed386571bc537789746f612",
-    "size": 1132,
-    "last_modified": "Mon, 26 Oct 2026 06:37:30 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/prefab/common/GoodsCost.d76fe4.json",
-    "file": "capture/kr/prefab_common_GoodsCost.d76fe4.json",
-    "status": 200,
-    "sha256": "22bce4b6f18da5fdef30e9cfb89295891257113889352d298522dfadd759bf43",
-    "size": 1038,
-    "last_modified": "Mon, 26 Oct 2026 06:37:30 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/prefab/common/HTMLExt.c88b82.json",
-    "file": "capture/kr/prefab_common_HTMLExt.c88b82.json",
-    "status": 200,
-    "sha256": "270a9fd8dd2e67d62dbf5fbb8d5d27d1d00b84ed10e792959f006831e09ec4d6",
-    "size": 273,
-    "last_modified": "Mon, 26 Oct 2026 06:37:30 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/prefab/common/ResStyle0.8d27ca.json",
-    "file": "capture/kr/prefab_common_ResStyle0.8d27ca.json",
-    "status": 200,
-    "sha256": "9c8b465e7066d6542dac556311d54b148bddc9e96b489504da1173f5b8e5ce2b",
-    "size": 854,
-    "last_modified": "Mon, 26 Oct 2026 06:37:30 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/prefab/MapPrefab.3f11b9.json",
-    "file": "capture/kr/prefab_MapPrefab.3f11b9.json",
-    "status": 200,
-    "sha256": "d28bad712afee0fba64c3274d27c61337931c93a733100ce2fa6ff76ef7c2d02",
-    "size": 734,
-    "last_modified": "Mon, 26 Oct 2026 06:37:30 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/prefab/Stronger.31eb18.json",
-    "file": "capture/kr/prefab_Stronger.31eb18.json",
-    "status": 200,
-    "sha256": "dea1944893c8895e60c11ce822a2795f31c80da7e2de0f94e58c43b4d9e858ba",
-    "size": 2676,
-    "last_modified": "Mon, 26 Oct 2026 06:37:30 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/ref/preRef.a443e7.json",
-    "file": "capture/kr/ref_preRef.a443e7.json",
-    "status": 200,
-    "sha256": "2e1eb7eca54ffa48ac156907e19e9981886b83efb91a49714f912e3fee7ef198",
-    "size": 845598,
-    "last_modified": "Fri, 06 Nov 2026 07:58:26 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/ref/ref0.6306dc.json",
-    "file": "capture/kr/ref_ref0.6306dc.json",
-    "status": 200,
-    "sha256": "f1da1b37410f2e2d014b5bbd74218004af775c86d5ef1e8a04ca1077b6bc1732",
-    "size": 1012654,
-    "last_modified": "Fri, 06 Nov 2026 06:16:25 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/ref/ref1.365920.json",
-    "file": "capture/kr/ref_ref1.365920.json",
-    "status": 200,
-    "sha256": "4bc8c9d99c118dcc1898269caaf1a43e4a16fd35a99d08eadd72e42921ba0485",
-    "size": 875569,
-    "last_modified": "Fri, 06 Nov 2026 06:16:25 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/ref/ref2.827c4b.json",
-    "file": "capture/kr/ref_ref2.827c4b.json",
-    "status": 200,
-    "sha256": "dfa257fb4932fa8d8a83a959d87d18a9c52537b34ac67dc2bd0eb326a3555671",
-    "size": 995658,
-    "last_modified": "Fri, 06 Nov 2026 06:26:34 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/ref/ref3.c162c5.json",
-    "file": "capture/kr/ref_ref3.c162c5.json",
-    "status": 200,
-    "sha256": "63a5c71d60eed0f8b8cf490eebeaa4361862138b49bc389d4c74b56e3727b5a1",
-    "size": 140554,
-    "last_modified": "Fri, 06 Nov 2026 06:16:25 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/ref/ref4.e269a4.json",
-    "file": "capture/kr/ref_ref4.e269a4.json",
-    "status": 200,
-    "sha256": "a9b302c07e71f3813ec2dd224b3a560ae8b7335f03b9c7fab93d6b1666d8b4dd",
-    "size": 4517176,
-    "last_modified": "Thu, 29 Oct 2026 04:24:11 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/ref/ref5.c903f7.json",
-    "file": "capture/kr/ref_ref5.c903f7.json",
-    "status": 200,
-    "sha256": "c75b906f7f9f368c05a1006ad08ce7c5ee31fabc5e3526c8051b219adca6b526",
-    "size": 811152,
-    "last_modified": "Fri, 06 Nov 2026 06:26:34 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/ref/ref6.e58ce1.json",
-    "file": "capture/kr/ref_ref6.e58ce1.json",
-    "status": 200,
-    "sha256": "2ee4600a49b2f98d668c9a7aa3fa8c4c15db6d198ce99620f50e1118d012f357",
-    "size": 1021783,
-    "last_modified": "Fri, 06 Nov 2026 06:26:34 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/ref/ref7.291fd8.json",
-    "file": "capture/kr/ref_ref7.291fd8.json",
-    "status": 200,
-    "sha256": "d6485b478cd0d962877aa5f148af027f383713503ec2343358af81e039e439a7",
-    "size": 1029062,
-    "last_modified": "Fri, 06 Nov 2026 06:26:34 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/ref/ref8.616bd0.json",
-    "file": "capture/kr/ref_ref8.616bd0.json",
-    "status": 200,
-    "sha256": "961ddb32eec9819693e1b8f476dcdd90934cd2f03147e1a82cd601c3a1c74ea4",
-    "size": 1045370,
-    "last_modified": "Fri, 06 Nov 2026 06:26:34 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/ref/ref9.ba4847.json",
-    "file": "capture/kr/ref_ref9.ba4847.json",
-    "status": 200,
-    "sha256": "fc048dca55f0ed37458c7ee4da7c1d4a7ff7e5ec5b935882fa272c38a285e462",
-    "size": 130336,
-    "last_modified": "Fri, 06 Nov 2026 06:26:34 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/ref/ShieldWordRef.82ee36.json",
-    "file": "capture/kr/ref_ShieldWordRef.82ee36.json",
-    "status": 200,
-    "sha256": "8ae8608a5b14b718e07195d4d1a3d840f7ad354d1bd37554dea9d8fccb8a6a3b",
-    "size": 1427185,
-    "last_modified": "Mon, 26 Oct 2026 06:37:30 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCn/preRef.220f89.json",
-    "file": "capture/kr/refCn_preRef.220f89.json",
-    "status": 200,
-    "sha256": "3373fa354262169516a8749d462b33bf76b3c36f9fa4f87d95ad6422f2b16932",
-    "size": 845596,
-    "last_modified": "Fri, 06 Nov 2026 07:58:26 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCn/ref0.6306dc.json",
-    "file": "capture/kr/refCn_ref0.6306dc.json",
-    "status": 200,
-    "sha256": "f1da1b37410f2e2d014b5bbd74218004af775c86d5ef1e8a04ca1077b6bc1732",
-    "size": 1012654,
-    "last_modified": "Fri, 06 Nov 2026 06:16:25 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCn/ref1.77c29d.json",
-    "file": "capture/kr/refCn_ref1.77c29d.json",
-    "status": 200,
-    "sha256": "fc987afb58074b8c5ec7b6a7aa4b53100ccda2c564aac87e944dfd860d696a3e",
-    "size": 895411,
-    "last_modified": "Fri, 06 Nov 2026 06:16:25 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCn/ref2.827c4b.json",
-    "file": "capture/kr/refCn_ref2.827c4b.json",
-    "status": 200,
-    "sha256": "dfa257fb4932fa8d8a83a959d87d18a9c52537b34ac67dc2bd0eb326a3555671",
-    "size": 995658,
-    "last_modified": "Fri, 06 Nov 2026 06:26:35 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCn/ref3.2b1f85.json",
-    "file": "capture/kr/refCn_ref3.2b1f85.json",
-    "status": 200,
-    "sha256": "b2f362e91578ba7845088305d7294991bda44181d25c587df608e80dbcbe460a",
-    "size": 140183,
-    "last_modified": "Fri, 06 Nov 2026 06:16:25 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCn/ref4.e269a4.json",
-    "file": "capture/kr/refCn_ref4.e269a4.json",
-    "status": 200,
-    "sha256": "a9b302c07e71f3813ec2dd224b3a560ae8b7335f03b9c7fab93d6b1666d8b4dd",
-    "size": 4517176,
-    "last_modified": "Thu, 29 Oct 2026 04:24:11 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCn/ref5.4a24dd.json",
-    "file": "capture/kr/refCn_ref5.4a24dd.json",
-    "status": 200,
-    "sha256": "93219ae810887698c7fbc370159a7f860b029a4f54a6dfe8ef4a158bc32441d9",
-    "size": 812271,
-    "last_modified": "Fri, 06 Nov 2026 06:26:35 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCn/ref6.e58ce1.json",
-    "file": "capture/kr/refCn_ref6.e58ce1.json",
-    "status": 200,
-    "sha256": "2ee4600a49b2f98d668c9a7aa3fa8c4c15db6d198ce99620f50e1118d012f357",
-    "size": 1021783,
-    "last_modified": "Fri, 06 Nov 2026 06:26:35 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCn/ref7.1a562d.json",
-    "file": "capture/kr/refCn_ref7.1a562d.json",
-    "status": 200,
-    "sha256": "376464b9b4c068bd4728eb6acc8aea18aa6ec1df1a33f1189fad752f4ffb20fc",
-    "size": 1030822,
-    "last_modified": "Fri, 06 Nov 2026 06:26:35 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCn/ref8.75f15a.json",
-    "file": "capture/kr/refCn_ref8.75f15a.json",
-    "status": 200,
-    "sha256": "bbb70b7adef2893c29df4f97650ee00521e53bf2f1d9982f1574f9a8ccff1204",
-    "size": 1047530,
-    "last_modified": "Fri, 06 Nov 2026 06:26:35 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCn/ref9.ba4847.json",
-    "file": "capture/kr/refCn_ref9.ba4847.json",
-    "status": 200,
-    "sha256": "fc048dca55f0ed37458c7ee4da7c1d4a7ff7e5ec5b935882fa272c38a285e462",
-    "size": 130336,
-    "last_modified": "Fri, 06 Nov 2026 06:26:35 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCn/ShieldWordRef.69feda.json",
-    "file": "capture/kr/refCn_ShieldWordRef.69feda.json",
-    "status": 200,
-    "sha256": "678143715a0453c4fce77d708e56e9edf82a5a370e4a62af8256f978b057a072",
-    "size": 1427185,
-    "last_modified": "Mon, 26 Oct 2026 06:37:30 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCnMg/preRef.de104b.json",
-    "file": "capture/kr/refCnMg_preRef.de104b.json",
-    "status": 200,
-    "sha256": "081015f49a52c0bb12429550057769e21d0f8197ad5daa5b3cb2663d18829672",
-    "size": 845638,
-    "last_modified": "Fri, 06 Nov 2026 08:14:23 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCnMg/ref0.761ab6.json",
-    "file": "capture/kr/refCnMg_ref0.761ab6.json",
-    "status": 200,
-    "sha256": "4a54f96cbd7d53c516b45fe90c4248f72090af2713ad30fa9afd50d25c138bf3",
-    "size": 1012687,
-    "last_modified": "Fri, 06 Nov 2026 06:16:25 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCnMg/ref1.5d9918.json",
-    "file": "capture/kr/refCnMg_ref1.5d9918.json",
-    "status": 200,
-    "sha256": "423ef5432afefafdce30c805d15db7e57a333890342462a6e2697f43d30d1d43",
-    "size": 895373,
-    "last_modified": "Fri, 06 Nov 2026 06:16:25 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCnMg/ref2.827c4b.json",
-    "file": "capture/kr/refCnMg_ref2.827c4b.json",
-    "status": 200,
-    "sha256": "dfa257fb4932fa8d8a83a959d87d18a9c52537b34ac67dc2bd0eb326a3555671",
-    "size": 995658,
-    "last_modified": "Fri, 06 Nov 2026 06:26:35 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCnMg/ref3.dd3a4c.json",
-    "file": "capture/kr/refCnMg_ref3.dd3a4c.json",
-    "status": 200,
-    "sha256": "edc4e9777544aece203c0c5b8e018d0dc00da4e9354ecfcaec6071764984c23e",
-    "size": 140171,
-    "last_modified": "Fri, 06 Nov 2026 06:16:25 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCnMg/ref4.e269a4.json",
-    "file": "capture/kr/refCnMg_ref4.e269a4.json",
-    "status": 200,
-    "sha256": "a9b302c07e71f3813ec2dd224b3a560ae8b7335f03b9c7fab93d6b1666d8b4dd",
-    "size": 4517176,
-    "last_modified": "Thu, 29 Oct 2026 04:24:11 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCnMg/ref5.94699e.json",
-    "file": "capture/kr/refCnMg_ref5.94699e.json",
-    "status": 200,
-    "sha256": "8ff025c7aca4ceb547250760295c9d6555395515f2172aa573290d3d5860fa2d",
-    "size": 810780,
-    "last_modified": "Fri, 06 Nov 2026 06:26:35 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCnMg/ref6.67e51b.json",
-    "file": "capture/kr/refCnMg_ref6.67e51b.json",
-    "status": 200,
-    "sha256": "5b04b7778412e7e415956d8ed26cba55737a74f50422279cbe69ba5a1b92e3e4",
-    "size": 1021159,
-    "last_modified": "Fri, 06 Nov 2026 06:26:35 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCnMg/ref7.c0447f.json",
-    "file": "capture/kr/refCnMg_ref7.c0447f.json",
-    "status": 200,
-    "sha256": "fb464107b4ef3a3ccc5c3c7ed9e353e6b7d7e2acbfcb7df3e02a802cbe656f08",
-    "size": 1030186,
-    "last_modified": "Fri, 06 Nov 2026 06:26:35 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCnMg/ref8.04e3d8.json",
-    "file": "capture/kr/refCnMg_ref8.04e3d8.json",
-    "status": 200,
-    "sha256": "a945df1dae2126f49dccbd49ae8506b9cd03ca9783f1ca374b43f3292d6ad2f5",
-    "size": 1041393,
-    "last_modified": "Fri, 06 Nov 2026 06:26:35 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCnMg/ref9.b30a75.json",
-    "file": "capture/kr/refCnMg_ref9.b30a75.json",
-    "status": 200,
-    "sha256": "a8741de71d0b04f57b82c6f24d2261d6e0171befd6c936a63dee154ec2d77ab1",
-    "size": 130447,
-    "last_modified": "Fri, 06 Nov 2026 06:26:35 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCnMg/ShieldWordRef.d3adef.json",
-    "file": "capture/kr/refCnMg_ShieldWordRef.d3adef.json",
-    "status": 200,
-    "sha256": "eeb050e8489b4bbebd08906e6c68fbcdfd8a10908189036058b81b5dfd8f129c",
-    "size": 1427185,
-    "last_modified": "Mon, 26 Oct 2026 07:22:06 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEn/preRef.e9127a.json",
-    "file": "capture/kr/refEn_preRef.e9127a.json",
-    "status": 200,
-    "sha256": "0cc72730338b4940a738dd67d07f8720969ebef053c39bb808db2421af895a6f",
-    "size": 845596,
-    "last_modified": "Fri, 06 Nov 2026 08:14:23 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEn/ref0.6306dc.json",
-    "file": "capture/kr/refEn_ref0.6306dc.json",
-    "status": 200,
-    "sha256": "f1da1b37410f2e2d014b5bbd74218004af775c86d5ef1e8a04ca1077b6bc1732",
-    "size": 1012654,
-    "last_modified": "Fri, 06 Nov 2026 06:16:26 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEn/ref1.365920.json",
-    "file": "capture/kr/refEn_ref1.365920.json",
-    "status": 200,
-    "sha256": "4bc8c9d99c118dcc1898269caaf1a43e4a16fd35a99d08eadd72e42921ba0485",
-    "size": 875569,
-    "last_modified": "Fri, 06 Nov 2026 06:16:26 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEn/ref2.827c4b.json",
-    "file": "capture/kr/refEn_ref2.827c4b.json",
-    "status": 200,
-    "sha256": "dfa257fb4932fa8d8a83a959d87d18a9c52537b34ac67dc2bd0eb326a3555671",
-    "size": 995658,
-    "last_modified": "Fri, 06 Nov 2026 06:26:35 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEn/ref3.2b1f85.json",
-    "file": "capture/kr/refEn_ref3.2b1f85.json",
-    "status": 200,
-    "sha256": "b2f362e91578ba7845088305d7294991bda44181d25c587df608e80dbcbe460a",
-    "size": 140183,
-    "last_modified": "Fri, 06 Nov 2026 06:16:26 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEn/ref4.e269a4.json",
-    "file": "capture/kr/refEn_ref4.e269a4.json",
-    "status": 200,
-    "sha256": "a9b302c07e71f3813ec2dd224b3a560ae8b7335f03b9c7fab93d6b1666d8b4dd",
-    "size": 4517176,
-    "last_modified": "Thu, 29 Oct 2026 04:24:11 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEn/ref5.c903f7.json",
-    "file": "capture/kr/refEn_ref5.c903f7.json",
-    "status": 200,
-    "sha256": "c75b906f7f9f368c05a1006ad08ce7c5ee31fabc5e3526c8051b219adca6b526",
-    "size": 811152,
-    "last_modified": "Fri, 06 Nov 2026 06:26:35 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEn/ref6.e58ce1.json",
-    "file": "capture/kr/refEn_ref6.e58ce1.json",
-    "status": 200,
-    "sha256": "2ee4600a49b2f98d668c9a7aa3fa8c4c15db6d198ce99620f50e1118d012f357",
-    "size": 1021783,
-    "last_modified": "Fri, 06 Nov 2026 06:26:35 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEn/ref7.291fd8.json",
-    "file": "capture/kr/refEn_ref7.291fd8.json",
-    "status": 200,
-    "sha256": "d6485b478cd0d962877aa5f148af027f383713503ec2343358af81e039e439a7",
-    "size": 1029062,
-    "last_modified": "Fri, 06 Nov 2026 06:26:35 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEn/ref8.616bd0.json",
-    "file": "capture/kr/refEn_ref8.616bd0.json",
-    "status": 200,
-    "sha256": "961ddb32eec9819693e1b8f476dcdd90934cd2f03147e1a82cd601c3a1c74ea4",
-    "size": 1045370,
-    "last_modified": "Fri, 06 Nov 2026 06:26:35 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEn/ref9.ba4847.json",
-    "file": "capture/kr/refEn_ref9.ba4847.json",
-    "status": 200,
-    "sha256": "fc048dca55f0ed37458c7ee4da7c1d4a7ff7e5ec5b935882fa272c38a285e462",
-    "size": 130336,
-    "last_modified": "Fri, 06 Nov 2026 06:26:35 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEn/ShieldWordRef.cc8ea0.json",
-    "file": "capture/kr/refEn_ShieldWordRef.cc8ea0.json",
-    "status": 200,
-    "sha256": "17bea8729399fd482703704ad33d29ffb211a75474b04124850f87eda9d5b143",
-    "size": 1427185,
-    "last_modified": "Mon, 26 Oct 2026 06:37:32 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEnMg/preRef.220f89.json",
-    "file": "capture/kr/refEnMg_preRef.220f89.json",
-    "status": 200,
-    "sha256": "3373fa354262169516a8749d462b33bf76b3c36f9fa4f87d95ad6422f2b16932",
-    "size": 845596,
-    "last_modified": "Fri, 06 Nov 2026 07:58:26 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEnMg/ref0.6306dc.json",
-    "file": "capture/kr/refEnMg_ref0.6306dc.json",
-    "status": 200,
-    "sha256": "f1da1b37410f2e2d014b5bbd74218004af775c86d5ef1e8a04ca1077b6bc1732",
-    "size": 1012654,
-    "last_modified": "Fri, 06 Nov 2026 06:16:26 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEnMg/ref1.365920.json",
-    "file": "capture/kr/refEnMg_ref1.365920.json",
-    "status": 200,
-    "sha256": "4bc8c9d99c118dcc1898269caaf1a43e4a16fd35a99d08eadd72e42921ba0485",
-    "size": 875569,
-    "last_modified": "Fri, 06 Nov 2026 06:16:26 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEnMg/ref2.827c4b.json",
-    "file": "capture/kr/refEnMg_ref2.827c4b.json",
-    "status": 200,
-    "sha256": "dfa257fb4932fa8d8a83a959d87d18a9c52537b34ac67dc2bd0eb326a3555671",
-    "size": 995658,
-    "last_modified": "Fri, 06 Nov 2026 06:26:35 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEnMg/ref3.2b1f85.json",
-    "file": "capture/kr/refEnMg_ref3.2b1f85.json",
-    "status": 200,
-    "sha256": "b2f362e91578ba7845088305d7294991bda44181d25c587df608e80dbcbe460a",
-    "size": 140183,
-    "last_modified": "Fri, 06 Nov 2026 06:16:26 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEnMg/ref4.e269a4.json",
-    "file": "capture/kr/refEnMg_ref4.e269a4.json",
-    "status": 200,
-    "sha256": "a9b302c07e71f3813ec2dd224b3a560ae8b7335f03b9c7fab93d6b1666d8b4dd",
-    "size": 4517176,
-    "last_modified": "Thu, 29 Oct 2026 04:24:12 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEnMg/ref5.c903f7.json",
-    "file": "capture/kr/refEnMg_ref5.c903f7.json",
-    "status": 200,
-    "sha256": "c75b906f7f9f368c05a1006ad08ce7c5ee31fabc5e3526c8051b219adca6b526",
-    "size": 811152,
-    "last_modified": "Fri, 06 Nov 2026 06:26:35 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEnMg/ref6.e58ce1.json",
-    "file": "capture/kr/refEnMg_ref6.e58ce1.json",
-    "status": 200,
-    "sha256": "2ee4600a49b2f98d668c9a7aa3fa8c4c15db6d198ce99620f50e1118d012f357",
-    "size": 1021783,
-    "last_modified": "Fri, 06 Nov 2026 06:26:35 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEnMg/ref7.291fd8.json",
-    "file": "capture/kr/refEnMg_ref7.291fd8.json",
-    "status": 200,
-    "sha256": "d6485b478cd0d962877aa5f148af027f383713503ec2343358af81e039e439a7",
-    "size": 1029062,
-    "last_modified": "Fri, 06 Nov 2026 06:26:35 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEnMg/ref8.616bd0.json",
-    "file": "capture/kr/refEnMg_ref8.616bd0.json",
-    "status": 200,
-    "sha256": "961ddb32eec9819693e1b8f476dcdd90934cd2f03147e1a82cd601c3a1c74ea4",
-    "size": 1045370,
-    "last_modified": "Fri, 06 Nov 2026 06:26:35 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEnMg/ref9.ba4847.json",
-    "file": "capture/kr/refEnMg_ref9.ba4847.json",
-    "status": 200,
-    "sha256": "fc048dca55f0ed37458c7ee4da7c1d4a7ff7e5ec5b935882fa272c38a285e462",
-    "size": 130336,
-    "last_modified": "Fri, 06 Nov 2026 06:26:35 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEnMg/ShieldWordRef.cc8ea0.json",
-    "file": "capture/kr/refEnMg_ShieldWordRef.cc8ea0.json",
-    "status": 200,
-    "sha256": "17bea8729399fd482703704ad33d29ffb211a75474b04124850f87eda9d5b143",
-    "size": 1427185,
-    "last_modified": "Mon, 26 Oct 2026 06:37:32 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMg/preRef.cca0e1.json",
-    "file": "capture/kr/refMg_preRef.cca0e1.json",
-    "status": 200,
-    "sha256": "5d483a32a4f0761472c7ad310f902aae36df6d0e8f5fde42d11a2bc9e1627228",
-    "size": 840275,
-    "last_modified": "Tue, 03 Nov 2026 03:54:47 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMg/ref0.23e244.json",
-    "file": "capture/kr/refMg_ref0.23e244.json",
-    "status": 200,
-    "sha256": "ebb6c1d02e99f38c85cb9fdca7f0b867c37e85c4c254751e4bcc0f74a9b2b593",
-    "size": 983389,
-    "last_modified": "Tue, 03 Nov 2026 03:54:47 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMg/ref1.444dc6.json",
-    "file": "capture/kr/refMg_ref1.444dc6.json",
-    "status": 200,
-    "sha256": "bfbb7e7fefc92d5f3b1068c5b9c46e848600f170a0049a752b78ec8a99fad03f",
-    "size": 810659,
-    "last_modified": "Tue, 03 Nov 2026 03:54:47 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMg/ref2.977d97.json",
-    "file": "capture/kr/refMg_ref2.977d97.json",
-    "status": 200,
-    "sha256": "a24a055b369655f25cc0cdf1d0ece8533d0fc60d12e756a480c8dcd3d7765601",
-    "size": 1041640,
-    "last_modified": "Tue, 03 Nov 2026 03:54:47 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMg/ref3.2449d4.json",
-    "file": "capture/kr/refMg_ref3.2449d4.json",
-    "status": 200,
-    "sha256": "cfb7cedd628b06a27281b72a69443accf5e74370d79d7f0228028d101ab88687",
-    "size": 3428427,
-    "last_modified": "Tue, 03 Nov 2026 03:54:47 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMg/ref4.6e7d74.json",
-    "file": "capture/kr/refMg_ref4.6e7d74.json",
-    "status": 200,
-    "sha256": "b71ce1f3772278719b21a7249e1464f9559273734a00d367b9e04aa087f51d7b",
-    "size": 802474,
-    "last_modified": "Tue, 03 Nov 2026 03:54:47 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMg/ref5.ae31af.json",
-    "file": "capture/kr/refMg_ref5.ae31af.json",
-    "status": 200,
-    "sha256": "67d6960f51bc2db9ac23e19bbad8fbd22d8fb8c6c8b169da7b0f15bc6d8a0ae4",
-    "size": 1045462,
-    "last_modified": "Tue, 03 Nov 2026 03:54:47 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMg/ref6.e30374.json",
-    "file": "capture/kr/refMg_ref6.e30374.json",
-    "status": 200,
-    "sha256": "49986a4c5af270238f17e693343545b772d82d42c42907e685fdfbe15ea93360",
-    "size": 980553,
-    "last_modified": "Tue, 03 Nov 2026 03:54:47 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMg/ref7.6029b5.json",
-    "file": "capture/kr/refMg_ref7.6029b5.json",
-    "status": 200,
-    "sha256": "437df4fcf1c48d5e0ee4f7f641f1c896e6b67c6ce5d291c43fa99631b1dcde1b",
-    "size": 896043,
-    "last_modified": "Tue, 03 Nov 2026 03:54:47 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMg/ShieldWordRef.7da490.json",
-    "file": "capture/kr/refMg_ShieldWordRef.7da490.json",
-    "status": 200,
-    "sha256": "e5d8dcbf4e6a3350ba193a46d5cf40ade11368209d4c55bca3be428e5bdc0536",
-    "size": 1427185,
-    "last_modified": "Tue, 03 Nov 2026 03:54:47 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMgA/preRef.b653bc.json",
-    "file": "capture/kr/refMgA_preRef.b653bc.json",
-    "status": 200,
-    "sha256": "b80a0229517eb5fe6f2b461d28412f11142b21b360f3b2533c4fafcebf821105",
-    "size": 729941,
-    "last_modified": "Fri, 06 Nov 2026 08:14:23 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMgA/ref0.eb44eb.json",
-    "file": "capture/kr/refMgA_ref0.eb44eb.json",
-    "status": 200,
-    "sha256": "2fd15ceffb689a0a2adf815438e9c96de79fbbd3e4ac017e4fbc8d9767fad60d",
-    "size": 1048913,
-    "last_modified": "Mon, 26 Oct 2026 06:37:32 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMgA/ref1.00ffbd.json",
-    "file": "capture/kr/refMgA_ref1.00ffbd.json",
-    "status": 200,
-    "sha256": "0cd6ff279c9a2f1b9e8109c5d35247684c9dcad16ca5fa0bea9cff5e6e4e7934",
-    "size": 885605,
-    "last_modified": "Mon, 26 Oct 2026 06:37:32 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMgA/ref2.9a3357.json",
-    "file": "capture/kr/refMgA_ref2.9a3357.json",
-    "status": 200,
-    "sha256": "f6b00b9d947bd039ed091f5e6e5ee1c03c5b76930d9337a7ba560d96a11e56b7",
-    "size": 429444,
-    "last_modified": "Mon, 26 Oct 2026 06:37:32 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMgA/ref3.f44d80.json",
-    "file": "capture/kr/refMgA_ref3.f44d80.json",
-    "status": 200,
-    "sha256": "20c1f520d004d98c3d72890a8e5f76b6d42083d273537895084fce307192b30a",
-    "size": 3382490,
-    "last_modified": "Mon, 26 Oct 2026 06:37:32 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMgA/ref4.d29798.json",
-    "file": "capture/kr/refMgA_ref4.d29798.json",
-    "status": 200,
-    "sha256": "1e0a4fcf08a19f79989c9f5604386c6694d231abd1489cfacd7b1e5cdd7d2912",
-    "size": 765135,
-    "last_modified": "Mon, 26 Oct 2026 06:37:32 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMgA/ref5.f34e92.json",
-    "file": "capture/kr/refMgA_ref5.f34e92.json",
-    "status": 200,
-    "sha256": "8cb80cac86c365116e3bb7bdb4909ba09bd628ece97800cac6703300c6506c51",
-    "size": 1042392,
-    "last_modified": "Mon, 26 Oct 2026 06:37:32 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMgA/ref6.e38a8f.json",
-    "file": "capture/kr/refMgA_ref6.e38a8f.json",
-    "status": 200,
-    "sha256": "2ad09d7238f91a25ab416d509648f6063105a68948494dca2448bbd119aa0216",
-    "size": 1000621,
-    "last_modified": "Mon, 26 Oct 2026 06:37:32 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMgA/ref7.49cc35.json",
-    "file": "capture/kr/refMgA_ref7.49cc35.json",
-    "status": 200,
-    "sha256": "a015109ffef2dbc3be5cac826bb11557dffa0dd6b87fafa03048bbf4148eebf3",
-    "size": 659998,
-    "last_modified": "Mon, 26 Oct 2026 06:37:32 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMgA/ShieldWordRef.36e278.json",
-    "file": "capture/kr/refMgA_ShieldWordRef.36e278.json",
-    "status": 200,
-    "sha256": "5edcfa46f5894af3a4d91591bffd93e924943d46d15afd73ec0dea6cafeafeef",
-    "size": 1427185,
-    "last_modified": "Mon, 26 Oct 2026 06:37:32 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/library.4c6181.js",
-    "file": "capture/kr/library.4c6181.js",
-    "status": 200,
-    "sha256": "8b3366c45d54dac10d4f92bbb992ff323fa164d4952b38cc9b80c41cb8db8d91",
-    "size": 757256,
-    "last_modified": "Mon, 26 Oct 2026 06:45:19 GMT"
-  },
-  {
-    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/bundle.c55b0e.js",
-    "file": "capture/kr/bundle.c55b0e.js",
-    "status": 200,
-    "sha256": "344708db336400797439db305252cefe72cadd22da8b668459a4a6cef16b78c5",
-    "size": 6809546,
-    "last_modified": "Fri, 06 Nov 2026 08:14:24 GMT"
-  },
-  {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/version.json",
     "file": "capture/en_test/version.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 08:38:30 GMT",
     "sha256": "6bada20ca4bcc586602b09b9cd1ab4661f81bc58cde25d2dd0c31d9d0dae6517",
     "size": 9367316,
-    "last_modified": "Thu, 12 Nov 2026 08:38:30 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/version.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/index.js",
     "file": "capture/en_test/index.js",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 08:38:30 GMT",
     "sha256": "990432d0fa4299e14cc2794e9efffece0a2f7341ddd3d4ce7313b093f679000c",
     "size": 492,
-    "last_modified": "Thu, 12 Nov 2026 08:38:30 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/index.js"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/prefab/common/BottomStyle0.f750bf.json",
     "file": "capture/en_test/prefab_common_BottomStyle0.f750bf.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:02 GMT",
     "sha256": "dda7bed14aa574cea13bf62c59a29f3fbea989403c558708c2fb2f2273b34c5d",
     "size": 795,
-    "last_modified": "Thu, 12 Nov 2026 04:02:02 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/prefab/common/BottomStyle0.f750bf.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/prefab/common/DialogStyle0.ac165d.json",
     "file": "capture/en_test/prefab_common_DialogStyle0.ac165d.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:02 GMT",
     "sha256": "8e9c7c35a92721a108660ad971b126ecb6ac166283b77c4bed79c339e668b2ce",
     "size": 771,
-    "last_modified": "Thu, 12 Nov 2026 04:02:02 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/prefab/common/DialogStyle0.ac165d.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/prefab/common/DialogStyle1.1a7eb4.json",
     "file": "capture/en_test/prefab_common_DialogStyle1.1a7eb4.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:02 GMT",
     "sha256": "b6843f05bae149b123b2bba03405244e3bfa9dd18ed386571bc537789746f612",
     "size": 1132,
-    "last_modified": "Thu, 12 Nov 2026 04:02:02 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/prefab/common/DialogStyle1.1a7eb4.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/prefab/common/GoodsCost.d76fe4.json",
     "file": "capture/en_test/prefab_common_GoodsCost.d76fe4.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:02 GMT",
     "sha256": "22bce4b6f18da5fdef30e9cfb89295891257113889352d298522dfadd759bf43",
     "size": 1038,
-    "last_modified": "Thu, 12 Nov 2026 04:02:02 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/prefab/common/GoodsCost.d76fe4.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/prefab/common/HTMLExt.c88b82.json",
     "file": "capture/en_test/prefab_common_HTMLExt.c88b82.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:02 GMT",
     "sha256": "270a9fd8dd2e67d62dbf5fbb8d5d27d1d00b84ed10e792959f006831e09ec4d6",
     "size": 273,
-    "last_modified": "Thu, 12 Nov 2026 04:02:02 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/prefab/common/HTMLExt.c88b82.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/prefab/common/ResStyle0.8d27ca.json",
     "file": "capture/en_test/prefab_common_ResStyle0.8d27ca.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:02 GMT",
     "sha256": "9c8b465e7066d6542dac556311d54b148bddc9e96b489504da1173f5b8e5ce2b",
     "size": 854,
-    "last_modified": "Thu, 12 Nov 2026 04:02:02 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/prefab/common/ResStyle0.8d27ca.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/prefab/MapPrefab.3f11b9.json",
     "file": "capture/en_test/prefab_MapPrefab.3f11b9.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:02 GMT",
     "sha256": "d28bad712afee0fba64c3274d27c61337931c93a733100ce2fa6ff76ef7c2d02",
     "size": 734,
-    "last_modified": "Thu, 12 Nov 2026 04:02:02 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/prefab/MapPrefab.3f11b9.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/prefab/Stronger.31eb18.json",
     "file": "capture/en_test/prefab_Stronger.31eb18.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:02 GMT",
     "sha256": "dea1944893c8895e60c11ce822a2795f31c80da7e2de0f94e58c43b4d9e858ba",
     "size": 2676,
-    "last_modified": "Thu, 12 Nov 2026 04:02:02 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/prefab/Stronger.31eb18.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/ref/preRef.4d4fb0.json",
     "file": "capture/en_test/ref_preRef.4d4fb0.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
     "sha256": "3e6d49e78a9c4f720e79ee0ad06acf8c6d3b4871f870226053ff9dffed2a8288",
     "size": 847005,
-    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/ref/preRef.4d4fb0.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/ref/ref0.55f4f3.json",
     "file": "capture/en_test/ref_ref0.55f4f3.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
     "sha256": "5c73971ce50d37ab81513ec1b2dcf06402ccff434d4af69df1989557e7e815be",
     "size": 1023745,
-    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/ref/ref0.55f4f3.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/ref/ref1.9700d0.json",
     "file": "capture/en_test/ref_ref1.9700d0.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
     "sha256": "d228dbca15a2e56f64b3a515533db76c18f0e7b95774c94f99d660e392729008",
     "size": 880435,
-    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/ref/ref1.9700d0.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/ref/ref2.d7c223.json",
     "file": "capture/en_test/ref_ref2.d7c223.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
     "sha256": "1855cc3380266fa355285c84b3034897343ef3696923c3ea774540a28dbee39b",
     "size": 997822,
-    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/ref/ref2.d7c223.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/ref/ref3.abe48b.json",
     "file": "capture/en_test/ref_ref3.abe48b.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
     "sha256": "2ab677fd3352da5d549db02dd31f93d342e476f29cdbde015602d9ef6ad35648",
     "size": 145015,
-    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/ref/ref3.abe48b.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/ref/ref4.981951.json",
     "file": "capture/en_test/ref_ref4.981951.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
     "sha256": "4fa0d98a30aee8670bb653430c8169b10a1f2c54786f50ef1b2c844102e5c60a",
     "size": 4518323,
-    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/ref/ref4.981951.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/ref/ref5.438787.json",
     "file": "capture/en_test/ref_ref5.438787.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
     "sha256": "9322598858a00fb179fe4277e27feacd30ed78795711a711f1c8d0782df8034d",
     "size": 825805,
-    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/ref/ref5.438787.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/ref/ref6.2e37bf.json",
     "file": "capture/en_test/ref_ref6.2e37bf.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
     "sha256": "2afa5828c7fce62dc40bd7dbadc466b27e7a8aa8aa998ff805d6cc0070d01ecc",
     "size": 1005331,
-    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/ref/ref6.2e37bf.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/ref/ref7.2d7d33.json",
     "file": "capture/en_test/ref_ref7.2d7d33.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
     "sha256": "ce566fd8b0ae085d9a9fb9c86bfd31785373426e6e76e588eacb12106917c662",
     "size": 1021480,
-    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/ref/ref7.2d7d33.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/ref/ref8.93182f.json",
     "file": "capture/en_test/ref_ref8.93182f.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
     "sha256": "6fbc3dfbba56338000a937759088a5d2592dec51b19b0c2dfcd4cc493014c2b5",
     "size": 991733,
-    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/ref/ref8.93182f.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/ref/ref9.c6a3f5.json",
     "file": "capture/en_test/ref_ref9.c6a3f5.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
     "sha256": "e3d6274b5de67ca14f7313e83f1b8b559b8accfcc6bd6de31834e692286f0138",
     "size": 250241,
-    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/ref/ref9.c6a3f5.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/ref/ShieldWordRef.899a2c.json",
     "file": "capture/en_test/ref_ShieldWordRef.899a2c.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
     "sha256": "42ae91d153505733efc0f2cf20ac82f8c19c629596f76296954d4bf1b619c214",
     "size": 1427185,
-    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/ref/ShieldWordRef.899a2c.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCn/preRef.b2d51c.json",
     "file": "capture/en_test/refCn_preRef.b2d51c.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
     "sha256": "dddeee8e70286fafe723819b47728556a51b557ad2170dd18f2444e0606eeed9",
     "size": 846943,
-    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCn/preRef.b2d51c.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCn/ref0.b34a90.json",
     "file": "capture/en_test/refCn_ref0.b34a90.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
     "sha256": "157d862fc6bdd73f22350d138da6ab269d445f5a608bc451d26ba6e2f2b76c66",
     "size": 1016057,
-    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCn/ref0.b34a90.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCn/ref1.3f3654.json",
     "file": "capture/en_test/refCn_ref1.3f3654.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
     "sha256": "d3595a421d4483e2f950260ff11f1ed9d4e02e348cb45efe635c7afe00fdd39d",
     "size": 896498,
-    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCn/ref1.3f3654.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCn/ref2.e0db17.json",
     "file": "capture/en_test/refCn_ref2.e0db17.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
     "sha256": "1ff56116351bcca5e237423062ee91d379876efd5e1146b9842c8e6c8fb97d10",
     "size": 997819,
-    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCn/ref2.e0db17.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCn/ref3.7c256c.json",
     "file": "capture/en_test/refCn_ref3.7c256c.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
     "sha256": "0d263fc536d90330337d7f271a972c372ad0948ef226b1c177009dd95c28c23b",
     "size": 144644,
-    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCn/ref3.7c256c.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCn/ref4.981951.json",
     "file": "capture/en_test/refCn_ref4.981951.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
     "sha256": "4fa0d98a30aee8670bb653430c8169b10a1f2c54786f50ef1b2c844102e5c60a",
     "size": 4518323,
-    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCn/ref4.981951.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCn/ref5.99282d.json",
     "file": "capture/en_test/refCn_ref5.99282d.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
     "sha256": "514aa70af615288ece83d567ef5437e9aa13605c57700c1402870c658ba09aa1",
     "size": 826924,
-    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCn/ref5.99282d.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCn/ref6.b44b75.json",
     "file": "capture/en_test/refCn_ref6.b44b75.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
     "sha256": "a5b70683159981570f76f3cc32ebd69ddc49b82e9fa37a7a7cba73c115227776",
     "size": 1005331,
-    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCn/ref6.b44b75.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCn/ref7.e2d707.json",
     "file": "capture/en_test/refCn_ref7.e2d707.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
     "sha256": "a9aa7e17a7b4d5d68ece45891301c2bc1bdb4a153fe9f6689da2c21344517473",
     "size": 1023240,
-    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCn/ref7.e2d707.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCn/ref8.58e215.json",
     "file": "capture/en_test/refCn_ref8.58e215.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
     "sha256": "62704c770dc56293410644bfda3be34241ddf55dd66b37e91e97f03df68913c1",
     "size": 991733,
-    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCn/ref8.58e215.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCn/ref9.ca7561.json",
     "file": "capture/en_test/refCn_ref9.ca7561.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
     "sha256": "aa1638bac7e03f6e4a77b598a91097703c1ae38ef9d73336475a3678dbede1af",
     "size": 252401,
-    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCn/ref9.ca7561.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCn/ShieldWordRef.c1c4f8.json",
     "file": "capture/en_test/refCn_ShieldWordRef.c1c4f8.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
     "sha256": "1cef872e33676687b4f9cef0b7a376fdddea5ae1237def4ef827b8c0de121a25",
     "size": 1427185,
-    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCn/ShieldWordRef.c1c4f8.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCnMg/preRef.b2d51c.json",
     "file": "capture/en_test/refCnMg_preRef.b2d51c.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
     "sha256": "dddeee8e70286fafe723819b47728556a51b557ad2170dd18f2444e0606eeed9",
     "size": 846943,
-    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCnMg/preRef.b2d51c.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCnMg/ref0.b34a90.json",
     "file": "capture/en_test/refCnMg_ref0.b34a90.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
     "sha256": "157d862fc6bdd73f22350d138da6ab269d445f5a608bc451d26ba6e2f2b76c66",
     "size": 1016057,
-    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCnMg/ref0.b34a90.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCnMg/ref1.3f3654.json",
     "file": "capture/en_test/refCnMg_ref1.3f3654.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
     "sha256": "d3595a421d4483e2f950260ff11f1ed9d4e02e348cb45efe635c7afe00fdd39d",
     "size": 896498,
-    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCnMg/ref1.3f3654.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCnMg/ref2.e0db17.json",
     "file": "capture/en_test/refCnMg_ref2.e0db17.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
     "sha256": "1ff56116351bcca5e237423062ee91d379876efd5e1146b9842c8e6c8fb97d10",
     "size": 997819,
-    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCnMg/ref2.e0db17.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCnMg/ref3.7c256c.json",
     "file": "capture/en_test/refCnMg_ref3.7c256c.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
     "sha256": "0d263fc536d90330337d7f271a972c372ad0948ef226b1c177009dd95c28c23b",
     "size": 144644,
-    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCnMg/ref3.7c256c.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCnMg/ref4.981951.json",
     "file": "capture/en_test/refCnMg_ref4.981951.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
     "sha256": "4fa0d98a30aee8670bb653430c8169b10a1f2c54786f50ef1b2c844102e5c60a",
     "size": 4518323,
-    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCnMg/ref4.981951.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCnMg/ref5.99282d.json",
     "file": "capture/en_test/refCnMg_ref5.99282d.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
     "sha256": "514aa70af615288ece83d567ef5437e9aa13605c57700c1402870c658ba09aa1",
     "size": 826924,
-    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCnMg/ref5.99282d.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCnMg/ref6.b44b75.json",
     "file": "capture/en_test/refCnMg_ref6.b44b75.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
     "sha256": "a5b70683159981570f76f3cc32ebd69ddc49b82e9fa37a7a7cba73c115227776",
     "size": 1005331,
-    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCnMg/ref6.b44b75.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCnMg/ref7.e2d707.json",
     "file": "capture/en_test/refCnMg_ref7.e2d707.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
     "sha256": "a9aa7e17a7b4d5d68ece45891301c2bc1bdb4a153fe9f6689da2c21344517473",
     "size": 1023240,
-    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCnMg/ref7.e2d707.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCnMg/ref8.58e215.json",
     "file": "capture/en_test/refCnMg_ref8.58e215.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
     "sha256": "62704c770dc56293410644bfda3be34241ddf55dd66b37e91e97f03df68913c1",
     "size": 991733,
-    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCnMg/ref8.58e215.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCnMg/ref9.ca7561.json",
     "file": "capture/en_test/refCnMg_ref9.ca7561.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
     "sha256": "aa1638bac7e03f6e4a77b598a91097703c1ae38ef9d73336475a3678dbede1af",
     "size": 252401,
-    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCnMg/ref9.ca7561.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCnMg/ShieldWordRef.c1c4f8.json",
     "file": "capture/en_test/refCnMg_ShieldWordRef.c1c4f8.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
     "sha256": "1cef872e33676687b4f9cef0b7a376fdddea5ae1237def4ef827b8c0de121a25",
     "size": 1427185,
-    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refCnMg/ShieldWordRef.c1c4f8.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEn/preRef.4d4fb0.json",
     "file": "capture/en_test/refEn_preRef.4d4fb0.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
     "sha256": "3e6d49e78a9c4f720e79ee0ad06acf8c6d3b4871f870226053ff9dffed2a8288",
     "size": 847005,
-    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEn/preRef.4d4fb0.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEn/ref0.55f4f3.json",
     "file": "capture/en_test/refEn_ref0.55f4f3.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
     "sha256": "5c73971ce50d37ab81513ec1b2dcf06402ccff434d4af69df1989557e7e815be",
     "size": 1023745,
-    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEn/ref0.55f4f3.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEn/ref1.9700d0.json",
     "file": "capture/en_test/refEn_ref1.9700d0.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
     "sha256": "d228dbca15a2e56f64b3a515533db76c18f0e7b95774c94f99d660e392729008",
     "size": 880435,
-    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEn/ref1.9700d0.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEn/ref2.d7c223.json",
     "file": "capture/en_test/refEn_ref2.d7c223.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
     "sha256": "1855cc3380266fa355285c84b3034897343ef3696923c3ea774540a28dbee39b",
     "size": 997822,
-    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEn/ref2.d7c223.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEn/ref3.844383.json",
     "file": "capture/en_test/refEn_ref3.844383.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
     "sha256": "da21db8220c708884af49b0b72594025f193d18f64f167d5ea0edc16606bd431",
     "size": 144644,
-    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEn/ref3.844383.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEn/ref4.981951.json",
     "file": "capture/en_test/refEn_ref4.981951.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
     "sha256": "4fa0d98a30aee8670bb653430c8169b10a1f2c54786f50ef1b2c844102e5c60a",
     "size": 4518323,
-    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEn/ref4.981951.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEn/ref5.438787.json",
     "file": "capture/en_test/refEn_ref5.438787.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
     "sha256": "9322598858a00fb179fe4277e27feacd30ed78795711a711f1c8d0782df8034d",
     "size": 825805,
-    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEn/ref5.438787.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEn/ref6.2e37bf.json",
     "file": "capture/en_test/refEn_ref6.2e37bf.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
     "sha256": "2afa5828c7fce62dc40bd7dbadc466b27e7a8aa8aa998ff805d6cc0070d01ecc",
     "size": 1005331,
-    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEn/ref6.2e37bf.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEn/ref7.2d7d33.json",
     "file": "capture/en_test/refEn_ref7.2d7d33.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
     "sha256": "ce566fd8b0ae085d9a9fb9c86bfd31785373426e6e76e588eacb12106917c662",
     "size": 1021480,
-    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEn/ref7.2d7d33.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEn/ref8.93182f.json",
     "file": "capture/en_test/refEn_ref8.93182f.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
     "sha256": "6fbc3dfbba56338000a937759088a5d2592dec51b19b0c2dfcd4cc493014c2b5",
     "size": 991733,
-    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEn/ref8.93182f.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEn/ref9.c6a3f5.json",
     "file": "capture/en_test/refEn_ref9.c6a3f5.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
     "sha256": "e3d6274b5de67ca14f7313e83f1b8b559b8accfcc6bd6de31834e692286f0138",
     "size": 250241,
-    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEn/ref9.c6a3f5.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEn/ShieldWordRef.4ceddc.json",
     "file": "capture/en_test/refEn_ShieldWordRef.4ceddc.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
     "sha256": "8904f8e3e452a4646ecd4280339432c6631d3c16eaa6f5a14d50611e5b88049e",
     "size": 1427185,
-    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEn/ShieldWordRef.4ceddc.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEnMg/preRef.4d4fb0.json",
     "file": "capture/en_test/refEnMg_preRef.4d4fb0.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "3e6d49e78a9c4f720e79ee0ad06acf8c6d3b4871f870226053ff9dffed2a8288",
     "size": 847005,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEnMg/preRef.4d4fb0.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEnMg/ref0.55f4f3.json",
     "file": "capture/en_test/refEnMg_ref0.55f4f3.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "5c73971ce50d37ab81513ec1b2dcf06402ccff434d4af69df1989557e7e815be",
     "size": 1023745,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEnMg/ref0.55f4f3.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEnMg/ref1.9700d0.json",
     "file": "capture/en_test/refEnMg_ref1.9700d0.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "d228dbca15a2e56f64b3a515533db76c18f0e7b95774c94f99d660e392729008",
     "size": 880435,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEnMg/ref1.9700d0.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEnMg/ref2.d7c223.json",
     "file": "capture/en_test/refEnMg_ref2.d7c223.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "1855cc3380266fa355285c84b3034897343ef3696923c3ea774540a28dbee39b",
     "size": 997822,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEnMg/ref2.d7c223.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEnMg/ref3.844383.json",
     "file": "capture/en_test/refEnMg_ref3.844383.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "da21db8220c708884af49b0b72594025f193d18f64f167d5ea0edc16606bd431",
     "size": 144644,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEnMg/ref3.844383.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEnMg/ref4.981951.json",
     "file": "capture/en_test/refEnMg_ref4.981951.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "4fa0d98a30aee8670bb653430c8169b10a1f2c54786f50ef1b2c844102e5c60a",
     "size": 4518323,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEnMg/ref4.981951.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEnMg/ref5.438787.json",
     "file": "capture/en_test/refEnMg_ref5.438787.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "9322598858a00fb179fe4277e27feacd30ed78795711a711f1c8d0782df8034d",
     "size": 825805,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEnMg/ref5.438787.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEnMg/ref6.2e37bf.json",
     "file": "capture/en_test/refEnMg_ref6.2e37bf.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "2afa5828c7fce62dc40bd7dbadc466b27e7a8aa8aa998ff805d6cc0070d01ecc",
     "size": 1005331,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEnMg/ref6.2e37bf.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEnMg/ref7.2d7d33.json",
     "file": "capture/en_test/refEnMg_ref7.2d7d33.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "ce566fd8b0ae085d9a9fb9c86bfd31785373426e6e76e588eacb12106917c662",
     "size": 1021480,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEnMg/ref7.2d7d33.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEnMg/ref8.93182f.json",
     "file": "capture/en_test/refEnMg_ref8.93182f.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "6fbc3dfbba56338000a937759088a5d2592dec51b19b0c2dfcd4cc493014c2b5",
     "size": 991733,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEnMg/ref8.93182f.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEnMg/ref9.c6a3f5.json",
     "file": "capture/en_test/refEnMg_ref9.c6a3f5.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "e3d6274b5de67ca14f7313e83f1b8b559b8accfcc6bd6de31834e692286f0138",
     "size": 250241,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEnMg/ref9.c6a3f5.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEnMg/ShieldWordRef.4ceddc.json",
     "file": "capture/en_test/refEnMg_ShieldWordRef.4ceddc.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "8904f8e3e452a4646ecd4280339432c6631d3c16eaa6f5a14d50611e5b88049e",
     "size": 1427185,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refEnMg/ShieldWordRef.4ceddc.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMg/preRef.cca0e1.json",
     "file": "capture/en_test/refMg_preRef.cca0e1.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "5d483a32a4f0761472c7ad310f902aae36df6d0e8f5fde42d11a2bc9e1627228",
     "size": 840275,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMg/preRef.cca0e1.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMg/ref0.23e244.json",
     "file": "capture/en_test/refMg_ref0.23e244.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "ebb6c1d02e99f38c85cb9fdca7f0b867c37e85c4c254751e4bcc0f74a9b2b593",
     "size": 983389,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMg/ref0.23e244.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMg/ref1.444dc6.json",
     "file": "capture/en_test/refMg_ref1.444dc6.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "bfbb7e7fefc92d5f3b1068c5b9c46e848600f170a0049a752b78ec8a99fad03f",
     "size": 810659,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMg/ref1.444dc6.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMg/ref2.977d97.json",
     "file": "capture/en_test/refMg_ref2.977d97.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "a24a055b369655f25cc0cdf1d0ece8533d0fc60d12e756a480c8dcd3d7765601",
     "size": 1041640,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMg/ref2.977d97.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMg/ref3.2449d4.json",
     "file": "capture/en_test/refMg_ref3.2449d4.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "cfb7cedd628b06a27281b72a69443accf5e74370d79d7f0228028d101ab88687",
     "size": 3428427,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMg/ref3.2449d4.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMg/ref4.6e7d74.json",
     "file": "capture/en_test/refMg_ref4.6e7d74.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "b71ce1f3772278719b21a7249e1464f9559273734a00d367b9e04aa087f51d7b",
     "size": 802474,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMg/ref4.6e7d74.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMg/ref5.ae31af.json",
     "file": "capture/en_test/refMg_ref5.ae31af.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "67d6960f51bc2db9ac23e19bbad8fbd22d8fb8c6c8b169da7b0f15bc6d8a0ae4",
     "size": 1045462,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMg/ref5.ae31af.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMg/ref6.e30374.json",
     "file": "capture/en_test/refMg_ref6.e30374.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "49986a4c5af270238f17e693343545b772d82d42c42907e685fdfbe15ea93360",
     "size": 980553,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMg/ref6.e30374.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMg/ref7.6029b5.json",
     "file": "capture/en_test/refMg_ref7.6029b5.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "437df4fcf1c48d5e0ee4f7f641f1c896e6b67c6ce5d291c43fa99631b1dcde1b",
     "size": 896043,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMg/ref7.6029b5.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMg/ShieldWordRef.7da490.json",
     "file": "capture/en_test/refMg_ShieldWordRef.7da490.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "e5d8dcbf4e6a3350ba193a46d5cf40ade11368209d4c55bca3be428e5bdc0536",
     "size": 1427185,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMg/ShieldWordRef.7da490.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMgA/preRef.16031f.json",
     "file": "capture/en_test/refMgA_preRef.16031f.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "0e6cd62d25af6e1a9eb4f2349efb05eb64ed9ba10a867a0b1b75bcc636e38d13",
     "size": 729941,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMgA/preRef.16031f.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMgA/ref0.eb44eb.json",
     "file": "capture/en_test/refMgA_ref0.eb44eb.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "2fd15ceffb689a0a2adf815438e9c96de79fbbd3e4ac017e4fbc8d9767fad60d",
     "size": 1048913,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMgA/ref0.eb44eb.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMgA/ref1.00ffbd.json",
     "file": "capture/en_test/refMgA_ref1.00ffbd.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "0cd6ff279c9a2f1b9e8109c5d35247684c9dcad16ca5fa0bea9cff5e6e4e7934",
     "size": 885605,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMgA/ref1.00ffbd.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMgA/ref2.9a3357.json",
     "file": "capture/en_test/refMgA_ref2.9a3357.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "f6b00b9d947bd039ed091f5e6e5ee1c03c5b76930d9337a7ba560d96a11e56b7",
     "size": 429444,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMgA/ref2.9a3357.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMgA/ref3.f44d80.json",
     "file": "capture/en_test/refMgA_ref3.f44d80.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "20c1f520d004d98c3d72890a8e5f76b6d42083d273537895084fce307192b30a",
     "size": 3382490,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMgA/ref3.f44d80.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMgA/ref4.d29798.json",
     "file": "capture/en_test/refMgA_ref4.d29798.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "1e0a4fcf08a19f79989c9f5604386c6694d231abd1489cfacd7b1e5cdd7d2912",
     "size": 765135,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMgA/ref4.d29798.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMgA/ref5.f34e92.json",
     "file": "capture/en_test/refMgA_ref5.f34e92.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "8cb80cac86c365116e3bb7bdb4909ba09bd628ece97800cac6703300c6506c51",
     "size": 1042392,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMgA/ref5.f34e92.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMgA/ref6.e38a8f.json",
     "file": "capture/en_test/refMgA_ref6.e38a8f.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "2ad09d7238f91a25ab416d509648f6063105a68948494dca2448bbd119aa0216",
     "size": 1000621,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMgA/ref6.e38a8f.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMgA/ref7.49cc35.json",
     "file": "capture/en_test/refMgA_ref7.49cc35.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "a015109ffef2dbc3be5cac826bb11557dffa0dd6b87fafa03048bbf4148eebf3",
     "size": 659998,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMgA/ref7.49cc35.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMgA/ShieldWordRef.36e278.json",
     "file": "capture/en_test/refMgA_ShieldWordRef.36e278.json",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
     "sha256": "5edcfa46f5894af3a4d91591bffd93e924943d46d15afd73ec0dea6cafeafeef",
     "size": 1427185,
-    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/refMgA/ShieldWordRef.36e278.json"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/library.4c6181.js",
     "file": "capture/en_test/library.4c6181.js",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 04:12:48 GMT",
     "sha256": "8b3366c45d54dac10d4f92bbb992ff323fa164d4952b38cc9b80c41cb8db8d91",
     "size": 757256,
-    "last_modified": "Thu, 12 Nov 2026 04:12:48 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/library.4c6181.js"
   },
   {
-    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/bundle.b1ad31.js",
     "file": "capture/en_test/bundle.b1ad31.js",
-    "status": 200,
+    "last_modified": "Thu, 12 Nov 2026 08:38:30 GMT",
     "sha256": "7a151edb366044f721a201233b0a07f5eefa674e862bfdcf70d636846f731bab",
     "size": 7198727,
-    "last_modified": "Thu, 12 Nov 2026 08:38:30 GMT"
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/test/bundle.b1ad31.js"
+  },
+  {
+    "file": "capture/en/version.json",
+    "last_modified": "Fri, 13 Nov 2026 07:11:35 GMT",
+    "sha256": "7e8446ebc9bfa097ea0aa8d55a74cd65aef09cb2a3e1d11d0576ef937d62351d",
+    "size": 9367316,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/version.json"
+  },
+  {
+    "file": "capture/en/index.js",
+    "last_modified": "Fri, 13 Nov 2026 07:11:35 GMT",
+    "sha256": "8f38f88709f1b72876d5975ee56147c5379dc62a1e61acf79336fc2e23a4e455",
+    "size": 492,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/index.js"
+  },
+  {
+    "file": "capture/en/prefab_common_BottomStyle0.f750bf.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:02 GMT",
+    "sha256": "dda7bed14aa574cea13bf62c59a29f3fbea989403c558708c2fb2f2273b34c5d",
+    "size": 795,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/prefab/common/BottomStyle0.f750bf.json"
+  },
+  {
+    "file": "capture/en/prefab_common_DialogStyle0.ac165d.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:02 GMT",
+    "sha256": "8e9c7c35a92721a108660ad971b126ecb6ac166283b77c4bed79c339e668b2ce",
+    "size": 771,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/prefab/common/DialogStyle0.ac165d.json"
+  },
+  {
+    "file": "capture/en/prefab_common_DialogStyle1.1a7eb4.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:02 GMT",
+    "sha256": "b6843f05bae149b123b2bba03405244e3bfa9dd18ed386571bc537789746f612",
+    "size": 1132,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/prefab/common/DialogStyle1.1a7eb4.json"
+  },
+  {
+    "file": "capture/en/prefab_common_GoodsCost.d76fe4.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:02 GMT",
+    "sha256": "22bce4b6f18da5fdef30e9cfb89295891257113889352d298522dfadd759bf43",
+    "size": 1038,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/prefab/common/GoodsCost.d76fe4.json"
+  },
+  {
+    "file": "capture/en/prefab_common_HTMLExt.c88b82.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:02 GMT",
+    "sha256": "270a9fd8dd2e67d62dbf5fbb8d5d27d1d00b84ed10e792959f006831e09ec4d6",
+    "size": 273,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/prefab/common/HTMLExt.c88b82.json"
+  },
+  {
+    "file": "capture/en/prefab_common_ResStyle0.8d27ca.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:02 GMT",
+    "sha256": "9c8b465e7066d6542dac556311d54b148bddc9e96b489504da1173f5b8e5ce2b",
+    "size": 854,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/prefab/common/ResStyle0.8d27ca.json"
+  },
+  {
+    "file": "capture/en/prefab_MapPrefab.3f11b9.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:02 GMT",
+    "sha256": "d28bad712afee0fba64c3274d27c61337931c93a733100ce2fa6ff76ef7c2d02",
+    "size": 734,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/prefab/MapPrefab.3f11b9.json"
+  },
+  {
+    "file": "capture/en/prefab_Stronger.31eb18.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:02 GMT",
+    "sha256": "dea1944893c8895e60c11ce822a2795f31c80da7e2de0f94e58c43b4d9e858ba",
+    "size": 2676,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/prefab/Stronger.31eb18.json"
+  },
+  {
+    "file": "capture/en/ref_preRef.4d4fb0.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
+    "sha256": "3e6d49e78a9c4f720e79ee0ad06acf8c6d3b4871f870226053ff9dffed2a8288",
+    "size": 847005,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/ref/preRef.4d4fb0.json"
+  },
+  {
+    "file": "capture/en/ref_ref0.55f4f3.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
+    "sha256": "5c73971ce50d37ab81513ec1b2dcf06402ccff434d4af69df1989557e7e815be",
+    "size": 1023745,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/ref/ref0.55f4f3.json"
+  },
+  {
+    "file": "capture/en/ref_ref1.9700d0.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
+    "sha256": "d228dbca15a2e56f64b3a515533db76c18f0e7b95774c94f99d660e392729008",
+    "size": 880435,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/ref/ref1.9700d0.json"
+  },
+  {
+    "file": "capture/en/ref_ref2.d7c223.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
+    "sha256": "1855cc3380266fa355285c84b3034897343ef3696923c3ea774540a28dbee39b",
+    "size": 997822,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/ref/ref2.d7c223.json"
+  },
+  {
+    "file": "capture/en/ref_ref3.abe48b.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
+    "sha256": "2ab677fd3352da5d549db02dd31f93d342e476f29cdbde015602d9ef6ad35648",
+    "size": 145015,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/ref/ref3.abe48b.json"
+  },
+  {
+    "file": "capture/en/ref_ref4.981951.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
+    "sha256": "4fa0d98a30aee8670bb653430c8169b10a1f2c54786f50ef1b2c844102e5c60a",
+    "size": 4518323,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/ref/ref4.981951.json"
+  },
+  {
+    "file": "capture/en/ref_ref5.438787.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
+    "sha256": "9322598858a00fb179fe4277e27feacd30ed78795711a711f1c8d0782df8034d",
+    "size": 825805,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/ref/ref5.438787.json"
+  },
+  {
+    "file": "capture/en/ref_ref6.2e37bf.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
+    "sha256": "2afa5828c7fce62dc40bd7dbadc466b27e7a8aa8aa998ff805d6cc0070d01ecc",
+    "size": 1005331,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/ref/ref6.2e37bf.json"
+  },
+  {
+    "file": "capture/en/ref_ref7.2d7d33.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
+    "sha256": "ce566fd8b0ae085d9a9fb9c86bfd31785373426e6e76e588eacb12106917c662",
+    "size": 1021480,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/ref/ref7.2d7d33.json"
+  },
+  {
+    "file": "capture/en/ref_ref8.93182f.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
+    "sha256": "6fbc3dfbba56338000a937759088a5d2592dec51b19b0c2dfcd4cc493014c2b5",
+    "size": 991733,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/ref/ref8.93182f.json"
+  },
+  {
+    "file": "capture/en/ref_ref9.c6a3f5.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
+    "sha256": "e3d6274b5de67ca14f7313e83f1b8b559b8accfcc6bd6de31834e692286f0138",
+    "size": 250241,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/ref/ref9.c6a3f5.json"
+  },
+  {
+    "file": "capture/en/ref_ShieldWordRef.899a2c.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
+    "sha256": "42ae91d153505733efc0f2cf20ac82f8c19c629596f76296954d4bf1b619c214",
+    "size": 1427185,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/ref/ShieldWordRef.899a2c.json"
+  },
+  {
+    "file": "capture/en/refCn_preRef.b2d51c.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
+    "sha256": "dddeee8e70286fafe723819b47728556a51b557ad2170dd18f2444e0606eeed9",
+    "size": 846943,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCn/preRef.b2d51c.json"
+  },
+  {
+    "file": "capture/en/refCn_ref0.b34a90.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
+    "sha256": "157d862fc6bdd73f22350d138da6ab269d445f5a608bc451d26ba6e2f2b76c66",
+    "size": 1016057,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCn/ref0.b34a90.json"
+  },
+  {
+    "file": "capture/en/refCn_ref1.3f3654.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
+    "sha256": "d3595a421d4483e2f950260ff11f1ed9d4e02e348cb45efe635c7afe00fdd39d",
+    "size": 896498,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCn/ref1.3f3654.json"
+  },
+  {
+    "file": "capture/en/refCn_ref2.e0db17.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
+    "sha256": "1ff56116351bcca5e237423062ee91d379876efd5e1146b9842c8e6c8fb97d10",
+    "size": 997819,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCn/ref2.e0db17.json"
+  },
+  {
+    "file": "capture/en/refCn_ref3.7c256c.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
+    "sha256": "0d263fc536d90330337d7f271a972c372ad0948ef226b1c177009dd95c28c23b",
+    "size": 144644,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCn/ref3.7c256c.json"
+  },
+  {
+    "file": "capture/en/refCn_ref4.981951.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
+    "sha256": "4fa0d98a30aee8670bb653430c8169b10a1f2c54786f50ef1b2c844102e5c60a",
+    "size": 4518323,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCn/ref4.981951.json"
+  },
+  {
+    "file": "capture/en/refCn_ref5.99282d.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
+    "sha256": "514aa70af615288ece83d567ef5437e9aa13605c57700c1402870c658ba09aa1",
+    "size": 826924,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCn/ref5.99282d.json"
+  },
+  {
+    "file": "capture/en/refCn_ref6.b44b75.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
+    "sha256": "a5b70683159981570f76f3cc32ebd69ddc49b82e9fa37a7a7cba73c115227776",
+    "size": 1005331,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCn/ref6.b44b75.json"
+  },
+  {
+    "file": "capture/en/refCn_ref7.e2d707.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
+    "sha256": "a9aa7e17a7b4d5d68ece45891301c2bc1bdb4a153fe9f6689da2c21344517473",
+    "size": 1023240,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCn/ref7.e2d707.json"
+  },
+  {
+    "file": "capture/en/refCn_ref8.58e215.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
+    "sha256": "62704c770dc56293410644bfda3be34241ddf55dd66b37e91e97f03df68913c1",
+    "size": 991733,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCn/ref8.58e215.json"
+  },
+  {
+    "file": "capture/en/refCn_ref9.ca7561.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
+    "sha256": "aa1638bac7e03f6e4a77b598a91097703c1ae38ef9d73336475a3678dbede1af",
+    "size": 252401,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCn/ref9.ca7561.json"
+  },
+  {
+    "file": "capture/en/refCn_ShieldWordRef.c1c4f8.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:03 GMT",
+    "sha256": "1cef872e33676687b4f9cef0b7a376fdddea5ae1237def4ef827b8c0de121a25",
+    "size": 1427185,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCn/ShieldWordRef.c1c4f8.json"
+  },
+  {
+    "file": "capture/en/refCnMg_preRef.b2d51c.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
+    "sha256": "dddeee8e70286fafe723819b47728556a51b557ad2170dd18f2444e0606eeed9",
+    "size": 846943,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCnMg/preRef.b2d51c.json"
+  },
+  {
+    "file": "capture/en/refCnMg_ref0.b34a90.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
+    "sha256": "157d862fc6bdd73f22350d138da6ab269d445f5a608bc451d26ba6e2f2b76c66",
+    "size": 1016057,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCnMg/ref0.b34a90.json"
+  },
+  {
+    "file": "capture/en/refCnMg_ref1.3f3654.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
+    "sha256": "d3595a421d4483e2f950260ff11f1ed9d4e02e348cb45efe635c7afe00fdd39d",
+    "size": 896498,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCnMg/ref1.3f3654.json"
+  },
+  {
+    "file": "capture/en/refCnMg_ref2.e0db17.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
+    "sha256": "1ff56116351bcca5e237423062ee91d379876efd5e1146b9842c8e6c8fb97d10",
+    "size": 997819,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCnMg/ref2.e0db17.json"
+  },
+  {
+    "file": "capture/en/refCnMg_ref3.7c256c.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
+    "sha256": "0d263fc536d90330337d7f271a972c372ad0948ef226b1c177009dd95c28c23b",
+    "size": 144644,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCnMg/ref3.7c256c.json"
+  },
+  {
+    "file": "capture/en/refCnMg_ref4.981951.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
+    "sha256": "4fa0d98a30aee8670bb653430c8169b10a1f2c54786f50ef1b2c844102e5c60a",
+    "size": 4518323,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCnMg/ref4.981951.json"
+  },
+  {
+    "file": "capture/en/refCnMg_ref5.99282d.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
+    "sha256": "514aa70af615288ece83d567ef5437e9aa13605c57700c1402870c658ba09aa1",
+    "size": 826924,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCnMg/ref5.99282d.json"
+  },
+  {
+    "file": "capture/en/refCnMg_ref6.b44b75.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
+    "sha256": "a5b70683159981570f76f3cc32ebd69ddc49b82e9fa37a7a7cba73c115227776",
+    "size": 1005331,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCnMg/ref6.b44b75.json"
+  },
+  {
+    "file": "capture/en/refCnMg_ref7.e2d707.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
+    "sha256": "a9aa7e17a7b4d5d68ece45891301c2bc1bdb4a153fe9f6689da2c21344517473",
+    "size": 1023240,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCnMg/ref7.e2d707.json"
+  },
+  {
+    "file": "capture/en/refCnMg_ref8.58e215.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
+    "sha256": "62704c770dc56293410644bfda3be34241ddf55dd66b37e91e97f03df68913c1",
+    "size": 991733,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCnMg/ref8.58e215.json"
+  },
+  {
+    "file": "capture/en/refCnMg_ref9.ca7561.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
+    "sha256": "aa1638bac7e03f6e4a77b598a91097703c1ae38ef9d73336475a3678dbede1af",
+    "size": 252401,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCnMg/ref9.ca7561.json"
+  },
+  {
+    "file": "capture/en/refCnMg_ShieldWordRef.c1c4f8.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
+    "sha256": "1cef872e33676687b4f9cef0b7a376fdddea5ae1237def4ef827b8c0de121a25",
+    "size": 1427185,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refCnMg/ShieldWordRef.c1c4f8.json"
+  },
+  {
+    "file": "capture/en/refEn_preRef.4d4fb0.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
+    "sha256": "3e6d49e78a9c4f720e79ee0ad06acf8c6d3b4871f870226053ff9dffed2a8288",
+    "size": 847005,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEn/preRef.4d4fb0.json"
+  },
+  {
+    "file": "capture/en/refEn_ref0.55f4f3.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
+    "sha256": "5c73971ce50d37ab81513ec1b2dcf06402ccff434d4af69df1989557e7e815be",
+    "size": 1023745,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEn/ref0.55f4f3.json"
+  },
+  {
+    "file": "capture/en/refEn_ref1.9700d0.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
+    "sha256": "d228dbca15a2e56f64b3a515533db76c18f0e7b95774c94f99d660e392729008",
+    "size": 880435,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEn/ref1.9700d0.json"
+  },
+  {
+    "file": "capture/en/refEn_ref2.d7c223.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
+    "sha256": "1855cc3380266fa355285c84b3034897343ef3696923c3ea774540a28dbee39b",
+    "size": 997822,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEn/ref2.d7c223.json"
+  },
+  {
+    "file": "capture/en/refEn_ref3.844383.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
+    "sha256": "da21db8220c708884af49b0b72594025f193d18f64f167d5ea0edc16606bd431",
+    "size": 144644,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEn/ref3.844383.json"
+  },
+  {
+    "file": "capture/en/refEn_ref4.981951.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
+    "sha256": "4fa0d98a30aee8670bb653430c8169b10a1f2c54786f50ef1b2c844102e5c60a",
+    "size": 4518323,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEn/ref4.981951.json"
+  },
+  {
+    "file": "capture/en/refEn_ref5.438787.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
+    "sha256": "9322598858a00fb179fe4277e27feacd30ed78795711a711f1c8d0782df8034d",
+    "size": 825805,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEn/ref5.438787.json"
+  },
+  {
+    "file": "capture/en/refEn_ref6.2e37bf.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
+    "sha256": "2afa5828c7fce62dc40bd7dbadc466b27e7a8aa8aa998ff805d6cc0070d01ecc",
+    "size": 1005331,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEn/ref6.2e37bf.json"
+  },
+  {
+    "file": "capture/en/refEn_ref7.2d7d33.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
+    "sha256": "ce566fd8b0ae085d9a9fb9c86bfd31785373426e6e76e588eacb12106917c662",
+    "size": 1021480,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEn/ref7.2d7d33.json"
+  },
+  {
+    "file": "capture/en/refEn_ref8.93182f.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
+    "sha256": "6fbc3dfbba56338000a937759088a5d2592dec51b19b0c2dfcd4cc493014c2b5",
+    "size": 991733,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEn/ref8.93182f.json"
+  },
+  {
+    "file": "capture/en/refEn_ref9.c6a3f5.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
+    "sha256": "e3d6274b5de67ca14f7313e83f1b8b559b8accfcc6bd6de31834e692286f0138",
+    "size": 250241,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEn/ref9.c6a3f5.json"
+  },
+  {
+    "file": "capture/en/refEn_ShieldWordRef.4ceddc.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:04 GMT",
+    "sha256": "8904f8e3e452a4646ecd4280339432c6631d3c16eaa6f5a14d50611e5b88049e",
+    "size": 1427185,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEn/ShieldWordRef.4ceddc.json"
+  },
+  {
+    "file": "capture/en/refEnMg_preRef.4d4fb0.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "3e6d49e78a9c4f720e79ee0ad06acf8c6d3b4871f870226053ff9dffed2a8288",
+    "size": 847005,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEnMg/preRef.4d4fb0.json"
+  },
+  {
+    "file": "capture/en/refEnMg_ref0.55f4f3.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "5c73971ce50d37ab81513ec1b2dcf06402ccff434d4af69df1989557e7e815be",
+    "size": 1023745,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEnMg/ref0.55f4f3.json"
+  },
+  {
+    "file": "capture/en/refEnMg_ref1.9700d0.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "d228dbca15a2e56f64b3a515533db76c18f0e7b95774c94f99d660e392729008",
+    "size": 880435,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEnMg/ref1.9700d0.json"
+  },
+  {
+    "file": "capture/en/refEnMg_ref2.d7c223.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "1855cc3380266fa355285c84b3034897343ef3696923c3ea774540a28dbee39b",
+    "size": 997822,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEnMg/ref2.d7c223.json"
+  },
+  {
+    "file": "capture/en/refEnMg_ref3.844383.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "da21db8220c708884af49b0b72594025f193d18f64f167d5ea0edc16606bd431",
+    "size": 144644,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEnMg/ref3.844383.json"
+  },
+  {
+    "file": "capture/en/refEnMg_ref4.981951.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "4fa0d98a30aee8670bb653430c8169b10a1f2c54786f50ef1b2c844102e5c60a",
+    "size": 4518323,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEnMg/ref4.981951.json"
+  },
+  {
+    "file": "capture/en/refEnMg_ref5.438787.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "9322598858a00fb179fe4277e27feacd30ed78795711a711f1c8d0782df8034d",
+    "size": 825805,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEnMg/ref5.438787.json"
+  },
+  {
+    "file": "capture/en/refEnMg_ref6.2e37bf.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "2afa5828c7fce62dc40bd7dbadc466b27e7a8aa8aa998ff805d6cc0070d01ecc",
+    "size": 1005331,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEnMg/ref6.2e37bf.json"
+  },
+  {
+    "file": "capture/en/refEnMg_ref7.2d7d33.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "ce566fd8b0ae085d9a9fb9c86bfd31785373426e6e76e588eacb12106917c662",
+    "size": 1021480,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEnMg/ref7.2d7d33.json"
+  },
+  {
+    "file": "capture/en/refEnMg_ref8.93182f.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "6fbc3dfbba56338000a937759088a5d2592dec51b19b0c2dfcd4cc493014c2b5",
+    "size": 991733,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEnMg/ref8.93182f.json"
+  },
+  {
+    "file": "capture/en/refEnMg_ref9.c6a3f5.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "e3d6274b5de67ca14f7313e83f1b8b559b8accfcc6bd6de31834e692286f0138",
+    "size": 250241,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEnMg/ref9.c6a3f5.json"
+  },
+  {
+    "file": "capture/en/refEnMg_ShieldWordRef.4ceddc.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "8904f8e3e452a4646ecd4280339432c6631d3c16eaa6f5a14d50611e5b88049e",
+    "size": 1427185,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refEnMg/ShieldWordRef.4ceddc.json"
+  },
+  {
+    "file": "capture/en/refMg_preRef.cca0e1.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "5d483a32a4f0761472c7ad310f902aae36df6d0e8f5fde42d11a2bc9e1627228",
+    "size": 840275,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMg/preRef.cca0e1.json"
+  },
+  {
+    "file": "capture/en/refMg_ref0.23e244.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "ebb6c1d02e99f38c85cb9fdca7f0b867c37e85c4c254751e4bcc0f74a9b2b593",
+    "size": 983389,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMg/ref0.23e244.json"
+  },
+  {
+    "file": "capture/en/refMg_ref1.444dc6.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "bfbb7e7fefc92d5f3b1068c5b9c46e848600f170a0049a752b78ec8a99fad03f",
+    "size": 810659,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMg/ref1.444dc6.json"
+  },
+  {
+    "file": "capture/en/refMg_ref2.977d97.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "a24a055b369655f25cc0cdf1d0ece8533d0fc60d12e756a480c8dcd3d7765601",
+    "size": 1041640,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMg/ref2.977d97.json"
+  },
+  {
+    "file": "capture/en/refMg_ref3.2449d4.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "cfb7cedd628b06a27281b72a69443accf5e74370d79d7f0228028d101ab88687",
+    "size": 3428427,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMg/ref3.2449d4.json"
+  },
+  {
+    "file": "capture/en/refMg_ref4.6e7d74.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "b71ce1f3772278719b21a7249e1464f9559273734a00d367b9e04aa087f51d7b",
+    "size": 802474,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMg/ref4.6e7d74.json"
+  },
+  {
+    "file": "capture/en/refMg_ref5.ae31af.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "67d6960f51bc2db9ac23e19bbad8fbd22d8fb8c6c8b169da7b0f15bc6d8a0ae4",
+    "size": 1045462,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMg/ref5.ae31af.json"
+  },
+  {
+    "file": "capture/en/refMg_ref6.e30374.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "49986a4c5af270238f17e693343545b772d82d42c42907e685fdfbe15ea93360",
+    "size": 980553,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMg/ref6.e30374.json"
+  },
+  {
+    "file": "capture/en/refMg_ref7.6029b5.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "437df4fcf1c48d5e0ee4f7f641f1c896e6b67c6ce5d291c43fa99631b1dcde1b",
+    "size": 896043,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMg/ref7.6029b5.json"
+  },
+  {
+    "file": "capture/en/refMg_ShieldWordRef.7da490.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "e5d8dcbf4e6a3350ba193a46d5cf40ade11368209d4c55bca3be428e5bdc0536",
+    "size": 1427185,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMg/ShieldWordRef.7da490.json"
+  },
+  {
+    "file": "capture/en/refMgA_preRef.16031f.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "0e6cd62d25af6e1a9eb4f2349efb05eb64ed9ba10a867a0b1b75bcc636e38d13",
+    "size": 729941,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMgA/preRef.16031f.json"
+  },
+  {
+    "file": "capture/en/refMgA_ref0.eb44eb.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "2fd15ceffb689a0a2adf815438e9c96de79fbbd3e4ac017e4fbc8d9767fad60d",
+    "size": 1048913,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMgA/ref0.eb44eb.json"
+  },
+  {
+    "file": "capture/en/refMgA_ref1.00ffbd.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "0cd6ff279c9a2f1b9e8109c5d35247684c9dcad16ca5fa0bea9cff5e6e4e7934",
+    "size": 885605,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMgA/ref1.00ffbd.json"
+  },
+  {
+    "file": "capture/en/refMgA_ref2.9a3357.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "f6b00b9d947bd039ed091f5e6e5ee1c03c5b76930d9337a7ba560d96a11e56b7",
+    "size": 429444,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMgA/ref2.9a3357.json"
+  },
+  {
+    "file": "capture/en/refMgA_ref3.f44d80.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "20c1f520d004d98c3d72890a8e5f76b6d42083d273537895084fce307192b30a",
+    "size": 3382490,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMgA/ref3.f44d80.json"
+  },
+  {
+    "file": "capture/en/refMgA_ref4.d29798.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "1e0a4fcf08a19f79989c9f5604386c6694d231abd1489cfacd7b1e5cdd7d2912",
+    "size": 765135,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMgA/ref4.d29798.json"
+  },
+  {
+    "file": "capture/en/refMgA_ref5.f34e92.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "8cb80cac86c365116e3bb7bdb4909ba09bd628ece97800cac6703300c6506c51",
+    "size": 1042392,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMgA/ref5.f34e92.json"
+  },
+  {
+    "file": "capture/en/refMgA_ref6.e38a8f.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "2ad09d7238f91a25ab416d509648f6063105a68948494dca2448bbd119aa0216",
+    "size": 1000621,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMgA/ref6.e38a8f.json"
+  },
+  {
+    "file": "capture/en/refMgA_ref7.49cc35.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "a015109ffef2dbc3be5cac826bb11557dffa0dd6b87fafa03048bbf4148eebf3",
+    "size": 659998,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMgA/ref7.49cc35.json"
+  },
+  {
+    "file": "capture/en/refMgA_ShieldWordRef.36e278.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:05 GMT",
+    "sha256": "5edcfa46f5894af3a4d91591bffd93e924943d46d15afd73ec0dea6cafeafeef",
+    "size": 1427185,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/refMgA/ShieldWordRef.36e278.json"
+  },
+  {
+    "file": "capture/en/bundle.8debaa.js",
+    "last_modified": "Fri, 13 Nov 2026 07:11:35 GMT",
+    "sha256": "7d8705af05b561a08c3acb99690ddb4af25cad86cd9c79d066ca7a7338d94c6b",
+    "size": 7198707,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/bundle.8debaa.js"
+  },
+  {
+    "file": "capture/en/library.4c6181.js",
+    "last_modified": "Thu, 12 Nov 2026 04:12:48 GMT",
+    "sha256": "8b3366c45d54dac10d4f92bbb992ff323fa164d4952b38cc9b80c41cb8db8d91",
+    "size": 757256,
+    "status": 200,
+    "url": "https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/library.4c6181.js"
+  },
+  {
+    "file": "capture/kr/version.json",
+    "last_modified": "Fri, 13 Nov 2026 07:11:12 GMT",
+    "sha256": "7e8446ebc9bfa097ea0aa8d55a74cd65aef09cb2a3e1d11d0576ef937d62351d",
+    "size": 9367316,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/version.json"
+  },
+  {
+    "file": "capture/kr/index.js",
+    "last_modified": "Fri, 13 Nov 2026 07:11:12 GMT",
+    "sha256": "8f38f88709f1b72876d5975ee56147c5379dc62a1e61acf79336fc2e23a4e455",
+    "size": 492,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/index.js"
+  },
+  {
+    "file": "capture/kr/prefab_common_BottomStyle0.f750bf.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:16 GMT",
+    "sha256": "dda7bed14aa574cea13bf62c59a29f3fbea989403c558708c2fb2f2273b34c5d",
+    "size": 795,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/prefab/common/BottomStyle0.f750bf.json"
+  },
+  {
+    "file": "capture/kr/prefab_common_DialogStyle0.ac165d.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:16 GMT",
+    "sha256": "8e9c7c35a92721a108660ad971b126ecb6ac166283b77c4bed79c339e668b2ce",
+    "size": 771,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/prefab/common/DialogStyle0.ac165d.json"
+  },
+  {
+    "file": "capture/kr/prefab_common_DialogStyle1.1a7eb4.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:16 GMT",
+    "sha256": "b6843f05bae149b123b2bba03405244e3bfa9dd18ed386571bc537789746f612",
+    "size": 1132,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/prefab/common/DialogStyle1.1a7eb4.json"
+  },
+  {
+    "file": "capture/kr/prefab_common_GoodsCost.d76fe4.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:16 GMT",
+    "sha256": "22bce4b6f18da5fdef30e9cfb89295891257113889352d298522dfadd759bf43",
+    "size": 1038,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/prefab/common/GoodsCost.d76fe4.json"
+  },
+  {
+    "file": "capture/kr/prefab_common_HTMLExt.c88b82.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:16 GMT",
+    "sha256": "270a9fd8dd2e67d62dbf5fbb8d5d27d1d00b84ed10e792959f006831e09ec4d6",
+    "size": 273,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/prefab/common/HTMLExt.c88b82.json"
+  },
+  {
+    "file": "capture/kr/prefab_common_ResStyle0.8d27ca.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:16 GMT",
+    "sha256": "9c8b465e7066d6542dac556311d54b148bddc9e96b489504da1173f5b8e5ce2b",
+    "size": 854,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/prefab/common/ResStyle0.8d27ca.json"
+  },
+  {
+    "file": "capture/kr/prefab_MapPrefab.3f11b9.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:16 GMT",
+    "sha256": "d28bad712afee0fba64c3274d27c61337931c93a733100ce2fa6ff76ef7c2d02",
+    "size": 734,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/prefab/MapPrefab.3f11b9.json"
+  },
+  {
+    "file": "capture/kr/prefab_Stronger.31eb18.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:16 GMT",
+    "sha256": "dea1944893c8895e60c11ce822a2795f31c80da7e2de0f94e58c43b4d9e858ba",
+    "size": 2676,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/prefab/Stronger.31eb18.json"
+  },
+  {
+    "file": "capture/kr/ref_preRef.4d4fb0.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "3e6d49e78a9c4f720e79ee0ad06acf8c6d3b4871f870226053ff9dffed2a8288",
+    "size": 847005,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/ref/preRef.4d4fb0.json"
+  },
+  {
+    "file": "capture/kr/ref_ref0.55f4f3.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "5c73971ce50d37ab81513ec1b2dcf06402ccff434d4af69df1989557e7e815be",
+    "size": 1023745,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/ref/ref0.55f4f3.json"
+  },
+  {
+    "file": "capture/kr/ref_ref1.9700d0.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "d228dbca15a2e56f64b3a515533db76c18f0e7b95774c94f99d660e392729008",
+    "size": 880435,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/ref/ref1.9700d0.json"
+  },
+  {
+    "file": "capture/kr/ref_ref2.d7c223.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "1855cc3380266fa355285c84b3034897343ef3696923c3ea774540a28dbee39b",
+    "size": 997822,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/ref/ref2.d7c223.json"
+  },
+  {
+    "file": "capture/kr/ref_ref3.abe48b.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "2ab677fd3352da5d549db02dd31f93d342e476f29cdbde015602d9ef6ad35648",
+    "size": 145015,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/ref/ref3.abe48b.json"
+  },
+  {
+    "file": "capture/kr/ref_ref4.981951.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "4fa0d98a30aee8670bb653430c8169b10a1f2c54786f50ef1b2c844102e5c60a",
+    "size": 4518323,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/ref/ref4.981951.json"
+  },
+  {
+    "file": "capture/kr/ref_ref5.438787.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "9322598858a00fb179fe4277e27feacd30ed78795711a711f1c8d0782df8034d",
+    "size": 825805,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/ref/ref5.438787.json"
+  },
+  {
+    "file": "capture/kr/ref_ref6.2e37bf.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "2afa5828c7fce62dc40bd7dbadc466b27e7a8aa8aa998ff805d6cc0070d01ecc",
+    "size": 1005331,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/ref/ref6.2e37bf.json"
+  },
+  {
+    "file": "capture/kr/ref_ref7.2d7d33.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "ce566fd8b0ae085d9a9fb9c86bfd31785373426e6e76e588eacb12106917c662",
+    "size": 1021480,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/ref/ref7.2d7d33.json"
+  },
+  {
+    "file": "capture/kr/ref_ref8.93182f.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "6fbc3dfbba56338000a937759088a5d2592dec51b19b0c2dfcd4cc493014c2b5",
+    "size": 991733,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/ref/ref8.93182f.json"
+  },
+  {
+    "file": "capture/kr/ref_ref9.c6a3f5.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "e3d6274b5de67ca14f7313e83f1b8b559b8accfcc6bd6de31834e692286f0138",
+    "size": 250241,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/ref/ref9.c6a3f5.json"
+  },
+  {
+    "file": "capture/kr/ref_ShieldWordRef.899a2c.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "42ae91d153505733efc0f2cf20ac82f8c19c629596f76296954d4bf1b619c214",
+    "size": 1427185,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/ref/ShieldWordRef.899a2c.json"
+  },
+  {
+    "file": "capture/kr/refCn_preRef.b2d51c.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "dddeee8e70286fafe723819b47728556a51b557ad2170dd18f2444e0606eeed9",
+    "size": 846943,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCn/preRef.b2d51c.json"
+  },
+  {
+    "file": "capture/kr/refCn_ref0.b34a90.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "157d862fc6bdd73f22350d138da6ab269d445f5a608bc451d26ba6e2f2b76c66",
+    "size": 1016057,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCn/ref0.b34a90.json"
+  },
+  {
+    "file": "capture/kr/refCn_ref1.3f3654.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "d3595a421d4483e2f950260ff11f1ed9d4e02e348cb45efe635c7afe00fdd39d",
+    "size": 896498,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCn/ref1.3f3654.json"
+  },
+  {
+    "file": "capture/kr/refCn_ref2.e0db17.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "1ff56116351bcca5e237423062ee91d379876efd5e1146b9842c8e6c8fb97d10",
+    "size": 997819,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCn/ref2.e0db17.json"
+  },
+  {
+    "file": "capture/kr/refCn_ref3.7c256c.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "0d263fc536d90330337d7f271a972c372ad0948ef226b1c177009dd95c28c23b",
+    "size": 144644,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCn/ref3.7c256c.json"
+  },
+  {
+    "file": "capture/kr/refCn_ref4.981951.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "4fa0d98a30aee8670bb653430c8169b10a1f2c54786f50ef1b2c844102e5c60a",
+    "size": 4518323,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCn/ref4.981951.json"
+  },
+  {
+    "file": "capture/kr/refCn_ref5.99282d.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "514aa70af615288ece83d567ef5437e9aa13605c57700c1402870c658ba09aa1",
+    "size": 826924,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCn/ref5.99282d.json"
+  },
+  {
+    "file": "capture/kr/refCn_ref6.b44b75.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "a5b70683159981570f76f3cc32ebd69ddc49b82e9fa37a7a7cba73c115227776",
+    "size": 1005331,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCn/ref6.b44b75.json"
+  },
+  {
+    "file": "capture/kr/refCn_ref7.e2d707.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "a9aa7e17a7b4d5d68ece45891301c2bc1bdb4a153fe9f6689da2c21344517473",
+    "size": 1023240,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCn/ref7.e2d707.json"
+  },
+  {
+    "file": "capture/kr/refCn_ref8.58e215.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "62704c770dc56293410644bfda3be34241ddf55dd66b37e91e97f03df68913c1",
+    "size": 991733,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCn/ref8.58e215.json"
+  },
+  {
+    "file": "capture/kr/refCn_ref9.ca7561.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "aa1638bac7e03f6e4a77b598a91097703c1ae38ef9d73336475a3678dbede1af",
+    "size": 252401,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCn/ref9.ca7561.json"
+  },
+  {
+    "file": "capture/kr/refCn_ShieldWordRef.c1c4f8.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "1cef872e33676687b4f9cef0b7a376fdddea5ae1237def4ef827b8c0de121a25",
+    "size": 1427185,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCn/ShieldWordRef.c1c4f8.json"
+  },
+  {
+    "file": "capture/kr/refCnMg_preRef.b2d51c.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "dddeee8e70286fafe723819b47728556a51b557ad2170dd18f2444e0606eeed9",
+    "size": 846943,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCnMg/preRef.b2d51c.json"
+  },
+  {
+    "file": "capture/kr/refCnMg_ref0.b34a90.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "157d862fc6bdd73f22350d138da6ab269d445f5a608bc451d26ba6e2f2b76c66",
+    "size": 1016057,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCnMg/ref0.b34a90.json"
+  },
+  {
+    "file": "capture/kr/refCnMg_ref1.3f3654.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "d3595a421d4483e2f950260ff11f1ed9d4e02e348cb45efe635c7afe00fdd39d",
+    "size": 896498,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCnMg/ref1.3f3654.json"
+  },
+  {
+    "file": "capture/kr/refCnMg_ref2.e0db17.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "1ff56116351bcca5e237423062ee91d379876efd5e1146b9842c8e6c8fb97d10",
+    "size": 997819,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCnMg/ref2.e0db17.json"
+  },
+  {
+    "file": "capture/kr/refCnMg_ref3.7c256c.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "0d263fc536d90330337d7f271a972c372ad0948ef226b1c177009dd95c28c23b",
+    "size": 144644,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCnMg/ref3.7c256c.json"
+  },
+  {
+    "file": "capture/kr/refCnMg_ref4.981951.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "4fa0d98a30aee8670bb653430c8169b10a1f2c54786f50ef1b2c844102e5c60a",
+    "size": 4518323,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCnMg/ref4.981951.json"
+  },
+  {
+    "file": "capture/kr/refCnMg_ref5.99282d.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "514aa70af615288ece83d567ef5437e9aa13605c57700c1402870c658ba09aa1",
+    "size": 826924,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCnMg/ref5.99282d.json"
+  },
+  {
+    "file": "capture/kr/refCnMg_ref6.b44b75.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "a5b70683159981570f76f3cc32ebd69ddc49b82e9fa37a7a7cba73c115227776",
+    "size": 1005331,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCnMg/ref6.b44b75.json"
+  },
+  {
+    "file": "capture/kr/refCnMg_ref7.e2d707.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "a9aa7e17a7b4d5d68ece45891301c2bc1bdb4a153fe9f6689da2c21344517473",
+    "size": 1023240,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCnMg/ref7.e2d707.json"
+  },
+  {
+    "file": "capture/kr/refCnMg_ref8.58e215.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "62704c770dc56293410644bfda3be34241ddf55dd66b37e91e97f03df68913c1",
+    "size": 991733,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCnMg/ref8.58e215.json"
+  },
+  {
+    "file": "capture/kr/refCnMg_ref9.ca7561.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "aa1638bac7e03f6e4a77b598a91097703c1ae38ef9d73336475a3678dbede1af",
+    "size": 252401,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCnMg/ref9.ca7561.json"
+  },
+  {
+    "file": "capture/kr/refCnMg_ShieldWordRef.c1c4f8.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:17 GMT",
+    "sha256": "1cef872e33676687b4f9cef0b7a376fdddea5ae1237def4ef827b8c0de121a25",
+    "size": 1427185,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refCnMg/ShieldWordRef.c1c4f8.json"
+  },
+  {
+    "file": "capture/kr/refEn_preRef.4d4fb0.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:18 GMT",
+    "sha256": "3e6d49e78a9c4f720e79ee0ad06acf8c6d3b4871f870226053ff9dffed2a8288",
+    "size": 847005,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEn/preRef.4d4fb0.json"
+  },
+  {
+    "file": "capture/kr/refEn_ref0.55f4f3.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:18 GMT",
+    "sha256": "5c73971ce50d37ab81513ec1b2dcf06402ccff434d4af69df1989557e7e815be",
+    "size": 1023745,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEn/ref0.55f4f3.json"
+  },
+  {
+    "file": "capture/kr/refEn_ref1.9700d0.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:18 GMT",
+    "sha256": "d228dbca15a2e56f64b3a515533db76c18f0e7b95774c94f99d660e392729008",
+    "size": 880435,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEn/ref1.9700d0.json"
+  },
+  {
+    "file": "capture/kr/refEn_ref2.d7c223.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:18 GMT",
+    "sha256": "1855cc3380266fa355285c84b3034897343ef3696923c3ea774540a28dbee39b",
+    "size": 997822,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEn/ref2.d7c223.json"
+  },
+  {
+    "file": "capture/kr/refEn_ref3.844383.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:18 GMT",
+    "sha256": "da21db8220c708884af49b0b72594025f193d18f64f167d5ea0edc16606bd431",
+    "size": 144644,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEn/ref3.844383.json"
+  },
+  {
+    "file": "capture/kr/refEn_ref4.981951.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:18 GMT",
+    "sha256": "4fa0d98a30aee8670bb653430c8169b10a1f2c54786f50ef1b2c844102e5c60a",
+    "size": 4518323,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEn/ref4.981951.json"
+  },
+  {
+    "file": "capture/kr/refEn_ref5.438787.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:18 GMT",
+    "sha256": "9322598858a00fb179fe4277e27feacd30ed78795711a711f1c8d0782df8034d",
+    "size": 825805,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEn/ref5.438787.json"
+  },
+  {
+    "file": "capture/kr/refEn_ref6.2e37bf.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:18 GMT",
+    "sha256": "2afa5828c7fce62dc40bd7dbadc466b27e7a8aa8aa998ff805d6cc0070d01ecc",
+    "size": 1005331,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEn/ref6.2e37bf.json"
+  },
+  {
+    "file": "capture/kr/refEn_ref7.2d7d33.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:18 GMT",
+    "sha256": "ce566fd8b0ae085d9a9fb9c86bfd31785373426e6e76e588eacb12106917c662",
+    "size": 1021480,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEn/ref7.2d7d33.json"
+  },
+  {
+    "file": "capture/kr/refEn_ref8.93182f.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:18 GMT",
+    "sha256": "6fbc3dfbba56338000a937759088a5d2592dec51b19b0c2dfcd4cc493014c2b5",
+    "size": 991733,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEn/ref8.93182f.json"
+  },
+  {
+    "file": "capture/kr/refEn_ref9.c6a3f5.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:18 GMT",
+    "sha256": "e3d6274b5de67ca14f7313e83f1b8b559b8accfcc6bd6de31834e692286f0138",
+    "size": 250241,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEn/ref9.c6a3f5.json"
+  },
+  {
+    "file": "capture/kr/refEn_ShieldWordRef.4ceddc.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:18 GMT",
+    "sha256": "8904f8e3e452a4646ecd4280339432c6631d3c16eaa6f5a14d50611e5b88049e",
+    "size": 1427185,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEn/ShieldWordRef.4ceddc.json"
+  },
+  {
+    "file": "capture/kr/refEnMg_preRef.4d4fb0.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:18 GMT",
+    "sha256": "3e6d49e78a9c4f720e79ee0ad06acf8c6d3b4871f870226053ff9dffed2a8288",
+    "size": 847005,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEnMg/preRef.4d4fb0.json"
+  },
+  {
+    "file": "capture/kr/refEnMg_ref0.55f4f3.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:18 GMT",
+    "sha256": "5c73971ce50d37ab81513ec1b2dcf06402ccff434d4af69df1989557e7e815be",
+    "size": 1023745,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEnMg/ref0.55f4f3.json"
+  },
+  {
+    "file": "capture/kr/refEnMg_ref1.9700d0.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:18 GMT",
+    "sha256": "d228dbca15a2e56f64b3a515533db76c18f0e7b95774c94f99d660e392729008",
+    "size": 880435,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEnMg/ref1.9700d0.json"
+  },
+  {
+    "file": "capture/kr/refEnMg_ref2.d7c223.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:18 GMT",
+    "sha256": "1855cc3380266fa355285c84b3034897343ef3696923c3ea774540a28dbee39b",
+    "size": 997822,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEnMg/ref2.d7c223.json"
+  },
+  {
+    "file": "capture/kr/refEnMg_ref3.844383.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:18 GMT",
+    "sha256": "da21db8220c708884af49b0b72594025f193d18f64f167d5ea0edc16606bd431",
+    "size": 144644,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEnMg/ref3.844383.json"
+  },
+  {
+    "file": "capture/kr/refEnMg_ref4.981951.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:18 GMT",
+    "sha256": "4fa0d98a30aee8670bb653430c8169b10a1f2c54786f50ef1b2c844102e5c60a",
+    "size": 4518323,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEnMg/ref4.981951.json"
+  },
+  {
+    "file": "capture/kr/refEnMg_ref5.438787.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:18 GMT",
+    "sha256": "9322598858a00fb179fe4277e27feacd30ed78795711a711f1c8d0782df8034d",
+    "size": 825805,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEnMg/ref5.438787.json"
+  },
+  {
+    "file": "capture/kr/refEnMg_ref6.2e37bf.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:18 GMT",
+    "sha256": "2afa5828c7fce62dc40bd7dbadc466b27e7a8aa8aa998ff805d6cc0070d01ecc",
+    "size": 1005331,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEnMg/ref6.2e37bf.json"
+  },
+  {
+    "file": "capture/kr/refEnMg_ref7.2d7d33.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:18 GMT",
+    "sha256": "ce566fd8b0ae085d9a9fb9c86bfd31785373426e6e76e588eacb12106917c662",
+    "size": 1021480,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEnMg/ref7.2d7d33.json"
+  },
+  {
+    "file": "capture/kr/refEnMg_ref8.93182f.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:18 GMT",
+    "sha256": "6fbc3dfbba56338000a937759088a5d2592dec51b19b0c2dfcd4cc493014c2b5",
+    "size": 991733,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEnMg/ref8.93182f.json"
+  },
+  {
+    "file": "capture/kr/refEnMg_ref9.c6a3f5.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:18 GMT",
+    "sha256": "e3d6274b5de67ca14f7313e83f1b8b559b8accfcc6bd6de31834e692286f0138",
+    "size": 250241,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEnMg/ref9.c6a3f5.json"
+  },
+  {
+    "file": "capture/kr/refEnMg_ShieldWordRef.4ceddc.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:18 GMT",
+    "sha256": "8904f8e3e452a4646ecd4280339432c6631d3c16eaa6f5a14d50611e5b88049e",
+    "size": 1427185,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refEnMg/ShieldWordRef.4ceddc.json"
+  },
+  {
+    "file": "capture/kr/refMg_preRef.cca0e1.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:19 GMT",
+    "sha256": "5d483a32a4f0761472c7ad310f902aae36df6d0e8f5fde42d11a2bc9e1627228",
+    "size": 840275,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMg/preRef.cca0e1.json"
+  },
+  {
+    "file": "capture/kr/refMg_ref0.23e244.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:19 GMT",
+    "sha256": "ebb6c1d02e99f38c85cb9fdca7f0b867c37e85c4c254751e4bcc0f74a9b2b593",
+    "size": 983389,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMg/ref0.23e244.json"
+  },
+  {
+    "file": "capture/kr/refMg_ref1.444dc6.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:19 GMT",
+    "sha256": "bfbb7e7fefc92d5f3b1068c5b9c46e848600f170a0049a752b78ec8a99fad03f",
+    "size": 810659,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMg/ref1.444dc6.json"
+  },
+  {
+    "file": "capture/kr/refMg_ref2.977d97.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:19 GMT",
+    "sha256": "a24a055b369655f25cc0cdf1d0ece8533d0fc60d12e756a480c8dcd3d7765601",
+    "size": 1041640,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMg/ref2.977d97.json"
+  },
+  {
+    "file": "capture/kr/refMg_ref3.2449d4.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:19 GMT",
+    "sha256": "cfb7cedd628b06a27281b72a69443accf5e74370d79d7f0228028d101ab88687",
+    "size": 3428427,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMg/ref3.2449d4.json"
+  },
+  {
+    "file": "capture/kr/refMg_ref4.6e7d74.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:19 GMT",
+    "sha256": "b71ce1f3772278719b21a7249e1464f9559273734a00d367b9e04aa087f51d7b",
+    "size": 802474,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMg/ref4.6e7d74.json"
+  },
+  {
+    "file": "capture/kr/refMg_ref5.ae31af.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:19 GMT",
+    "sha256": "67d6960f51bc2db9ac23e19bbad8fbd22d8fb8c6c8b169da7b0f15bc6d8a0ae4",
+    "size": 1045462,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMg/ref5.ae31af.json"
+  },
+  {
+    "file": "capture/kr/refMg_ref6.e30374.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:19 GMT",
+    "sha256": "49986a4c5af270238f17e693343545b772d82d42c42907e685fdfbe15ea93360",
+    "size": 980553,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMg/ref6.e30374.json"
+  },
+  {
+    "file": "capture/kr/refMg_ref7.6029b5.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:19 GMT",
+    "sha256": "437df4fcf1c48d5e0ee4f7f641f1c896e6b67c6ce5d291c43fa99631b1dcde1b",
+    "size": 896043,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMg/ref7.6029b5.json"
+  },
+  {
+    "file": "capture/kr/refMg_ShieldWordRef.7da490.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:19 GMT",
+    "sha256": "e5d8dcbf4e6a3350ba193a46d5cf40ade11368209d4c55bca3be428e5bdc0536",
+    "size": 1427185,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMg/ShieldWordRef.7da490.json"
+  },
+  {
+    "file": "capture/kr/refMgA_preRef.16031f.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:19 GMT",
+    "sha256": "0e6cd62d25af6e1a9eb4f2349efb05eb64ed9ba10a867a0b1b75bcc636e38d13",
+    "size": 729941,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMgA/preRef.16031f.json"
+  },
+  {
+    "file": "capture/kr/refMgA_ref0.eb44eb.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:19 GMT",
+    "sha256": "2fd15ceffb689a0a2adf815438e9c96de79fbbd3e4ac017e4fbc8d9767fad60d",
+    "size": 1048913,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMgA/ref0.eb44eb.json"
+  },
+  {
+    "file": "capture/kr/refMgA_ref1.00ffbd.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:19 GMT",
+    "sha256": "0cd6ff279c9a2f1b9e8109c5d35247684c9dcad16ca5fa0bea9cff5e6e4e7934",
+    "size": 885605,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMgA/ref1.00ffbd.json"
+  },
+  {
+    "file": "capture/kr/refMgA_ref2.9a3357.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:19 GMT",
+    "sha256": "f6b00b9d947bd039ed091f5e6e5ee1c03c5b76930d9337a7ba560d96a11e56b7",
+    "size": 429444,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMgA/ref2.9a3357.json"
+  },
+  {
+    "file": "capture/kr/refMgA_ref3.f44d80.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:19 GMT",
+    "sha256": "20c1f520d004d98c3d72890a8e5f76b6d42083d273537895084fce307192b30a",
+    "size": 3382490,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMgA/ref3.f44d80.json"
+  },
+  {
+    "file": "capture/kr/refMgA_ref4.d29798.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:19 GMT",
+    "sha256": "1e0a4fcf08a19f79989c9f5604386c6694d231abd1489cfacd7b1e5cdd7d2912",
+    "size": 765135,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMgA/ref4.d29798.json"
+  },
+  {
+    "file": "capture/kr/refMgA_ref5.f34e92.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:19 GMT",
+    "sha256": "8cb80cac86c365116e3bb7bdb4909ba09bd628ece97800cac6703300c6506c51",
+    "size": 1042392,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMgA/ref5.f34e92.json"
+  },
+  {
+    "file": "capture/kr/refMgA_ref6.e38a8f.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:19 GMT",
+    "sha256": "2ad09d7238f91a25ab416d509648f6063105a68948494dca2448bbd119aa0216",
+    "size": 1000621,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMgA/ref6.e38a8f.json"
+  },
+  {
+    "file": "capture/kr/refMgA_ref7.49cc35.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:19 GMT",
+    "sha256": "a015109ffef2dbc3be5cac826bb11557dffa0dd6b87fafa03048bbf4148eebf3",
+    "size": 659998,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMgA/ref7.49cc35.json"
+  },
+  {
+    "file": "capture/kr/refMgA_ShieldWordRef.36e278.json",
+    "last_modified": "Thu, 12 Nov 2026 04:02:19 GMT",
+    "sha256": "5edcfa46f5894af3a4d91591bffd93e924943d46d15afd73ec0dea6cafeafeef",
+    "size": 1427185,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/refMgA/ShieldWordRef.36e278.json"
+  },
+  {
+    "file": "capture/kr/bundle.8debaa.js",
+    "last_modified": "Fri, 13 Nov 2026 07:11:11 GMT",
+    "sha256": "7d8705af05b561a08c3acb99690ddb4af25cad86cd9c79d066ca7a7338d94c6b",
+    "size": 7198707,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/bundle.8debaa.js"
+  },
+  {
+    "file": "capture/kr/library.4c6181.js",
+    "last_modified": "Thu, 12 Nov 2026 04:12:50 GMT",
+    "sha256": "8b3366c45d54dac10d4f92bbb992ff323fa164d4952b38cc9b80c41cb8db8d91",
+    "size": 757256,
+    "status": 200,
+    "url": "https://hwkr-cdn.techplmnet.site/hwkr/channel/app/library.4c6181.js"
   }
 ]

@@ -1,0 +1,14 @@
+{
+  "client": {
+    "en": {
+      "manifest_sha256": "7e8446ebc9bfa097ea0aa8d55a74cd65aef09cb2a3e1d11d0576ef937d62351d",
+      "run_id": "43599536975",
+      "verified_at": "2026-11-14T13:26:31.568071+00:00"
+    },
+    "kr": {
+      "manifest_sha256": "7e8446ebc9bfa097ea0aa8d55a74cd65aef09cb2a3e1d11d0576ef937d62351d",
+      "run_id": "43599536975",
+      "verified_at": "2026-11-14T13:26:31.568071+00:00"
+    }
+  }
+}
