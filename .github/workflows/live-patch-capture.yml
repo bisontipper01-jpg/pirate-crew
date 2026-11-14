@@ -7,6 +7,9 @@ on:
     branches: [main]
     paths: ['.github/workflows/live-patch-capture.yml']
   workflow_dispatch:
+concurrency:
+  group: live-patch-capture-index
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
@@ -153,6 +156,95 @@ jobs:
           (out/"report.json").write_text(json.dumps(results,indent=2))
           print(json.dumps(results,indent=2))
           PY
+      - name: Build verified capture index
+        if: always()
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, hashlib, os, re
+          from datetime import datetime, timezone
+          root=pathlib.Path("capture")
+          idx=pathlib.Path("patch-capture-index")
+          backend=idx/"backend"
+          backend.mkdir(parents=True,exist_ok=True)
+          def read(p,default):
+              return json.loads(p.read_text()) if p.exists() else default
+          def write(p,obj):
+              p.write_text(json.dumps(obj,sort_keys=True,indent=2)+"\n")
+          def sha(obj):
+              return hashlib.sha256(json.dumps(obj,sort_keys=True,separators=(",",":")).encode()).hexdigest()
+          def diff(a,b,p=""):
+              if isinstance(a,dict) and isinstance(b,dict):
+                  out=[]
+                  for k in sorted(a.keys()|b.keys()):
+                      q=p+"/"+k.replace("~","~0").replace("/","~1")
+                      if k not in a: out.append(dict(path=q,op="add",new=b[k]))
+                      elif k not in b: out.append(dict(path=q,op="remove",old=a[k]))
+                      else: out.extend(diff(a[k],b[k],q))
+                  return out
+              return [] if a==b else [dict(path=p,op="replace",old=a,new=b)]
+          run=os.environ["GITHUB_RUN_ID"]
+          now=datetime.now(timezone.utc).isoformat()
+          baseline=read(idx/"verified-baseline.json",{})
+          previous=read(idx/"report.json",[])
+          current=read(root/"report.json",[])
+          deployment=read(root/"deployment/deployment-report.json",[])
+          allowed={"clientPath","clientAuditPath","clientVerCode","clientVerName","version","build","forceUpdate","minVersion","resourceVersion"}
+          def safe(x):
+              if isinstance(x,dict):
+                  out={}
+                  for k,v in x.items():
+                      if isinstance(v,(dict,list)):
+                          z=safe(v)
+                          if z: out[k]=z
+                      elif k in allowed and isinstance(v,(str,int,float,bool)) and not (isinstance(v,str) and ("?" in v or "@" in v)):
+                          out[k]=v
+                  return out
+              if isinstance(x,list): return [z for v in x if isinstance(v,(dict,list)) and (z:=safe(v))]
+              return {}
+          observations=[]; changes=[]
+          for row in deployment:
+              region=row.get("region")
+              m=re.search(r"app_ver_name=([0-9.]+)",row.get("url",""))
+              if region not in ("en","kr","en_test","kr_test") or not m: continue
+              key=region+"-"+m.group(1)
+              cfg=safe(row.get("config"))
+              valid=row.get("status")==200 and bool(cfg)
+              obs=dict(key=key,region=region,status="verified" if valid else "unavailable")
+              if valid:
+                  p=backend/(key+".json")
+                  old=read(p,None)
+                  h=sha(cfg)
+                  obs.update(sha256=h,comparison="initial" if old is None else "unchanged" if old==cfg else "changed")
+                  if old is not None and old!=cfg: changes.append(dict(key=key,region=region,changes=diff(old,cfg)))
+                  write(p,cfg)
+                  baseline.setdefault("backend",{})[key]=dict(sha256=h,run_id=run,verified_at=now)
+              observations.append(obs)
+          write(backend/"deployment-report.json",dict(run_id=run,captured_at=now,observations=observations))
+          write(backend/"backend-diff.json",dict(run_id=run,changes=changes))
+          write(backend/"runtime-config.json",dict(status="not_captured",reason="No verified public gameplay startup endpoint; no authentication or GM commands."))
+          write(backend/"protocol-map.json",dict(status="not_captured",reason="Protocol extraction not implemented."))
+          coverage={}; client_changes=[]
+          for region,base in [("en","https://hwen-cdn.blmarkbsk.xyz/hwen/channel/app/"),("kr","https://hwkr-cdn.techplmnet.site/hwkr/channel/app/")]:
+              prefix="capture/"+region+"/"
+              rows=[x for x in current if x.get("file","").startswith(prefix) or x.get("url","").startswith(base)]
+              good=[x for x in rows if x.get("status")==200 and x.get("sha256")]
+              manifest=root/region/"version.json"
+              complete=bool(rows) and len(good)==len(rows) and manifest.exists() and any(x.get("file")==prefix+"version.json" for x in good) and any(re.search(r"/bundle\.[^/]+\.js$",x.get("file","")) for x in good) and any("/ref" in x.get("file","") for x in good)
+              coverage[region]=dict(status="verified" if complete else "incomplete",successful=len(good),attempted=len(rows))
+              if not complete: continue
+              old={x["file"]:x["sha256"] for x in previous if x.get("file","").startswith(prefix) and x.get("sha256")}
+              new={x["file"]:x["sha256"] for x in good}
+              client_changes.append(dict(region=region,initial=not bool(old),changes=diff(old,new) if old else []))
+              previous=[x for x in previous if not x.get("file","").startswith(prefix)]+good
+              (idx/(region+"-version.json")).write_bytes(manifest.read_bytes())
+              baseline.setdefault("client",{})[region]=dict(run_id=run,verified_at=now,manifest_sha256=new[prefix+"version.json"])
+          write(idx/"report.json",previous)
+          write(idx/"verified-baseline.json",baseline)
+          write(idx/"capture-status.json",dict(run_id=run,captured_at=now,client=coverage,backend=observations))
+          write(idx/"client-resource-diff.json",dict(run_id=run,changes=client_changes))
+          if all(v["status"]=="verified" for v in coverage.values()):
+              (idx/"run-id.txt").write_text(run+"\n")
+          PY
       - name: Extract exact skin models
         run: |
           python - <<'PY'
@@ -212,13 +304,7 @@ jobs:
         if: always() && github.event_name != 'pull_request'
         run: |
           mkdir -p patch-capture-index
-          cp capture/report.json patch-capture-index/report.json
-          for region in en kr; do
-            if test -f "capture/$region/version.json"; then
-              cp "capture/$region/version.json" "patch-capture-index/$region-version.json"
-            fi
-          done
-          printf '%s\n' "$GITHUB_RUN_ID" > patch-capture-index/run-id.txt
+          test -f patch-capture-index/capture-status.json
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add patch-capture-index
