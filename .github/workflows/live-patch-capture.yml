@@ -97,6 +97,7 @@ jobs:
                   (root/f"{region}-{version}.json").write_bytes(raw)
                   cfg=obj.get("resourcesUpdateConfigV3")
                   result["config"]=cfg
+                  result["publicFields"]={k:v for k,v in obj.items() if k in ("newHouTaiServiceUrl","product","productId","partition","partitionId","sdk","sdkId","paymentChannel","package","packageName")}
                   def walk(x):
                       if isinstance(x,dict):
                           for k,v in x.items():
@@ -114,7 +115,7 @@ jobs:
               except Exception as e: result["error"]=str(e)
               return result
           with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
-              results=list(pool.map(probe,[(r,h,p,v) for r,h,p in targets for v in ("1.0.3","1.27.0","1.28.0")]))
+              results=list(pool.map(probe,[(r,h,p,v) for r,h,p in targets for v in ("1.0.3","1.27.0","1.28.0","1.29.0")]))
           (root/"deployment-report.json").write_text(json.dumps(results,indent=2))
           print(json.dumps(results,indent=2))
           PY
@@ -188,7 +189,7 @@ jobs:
           previous=read(idx/"report.json",[])
           current=read(root/"report.json",[])
           deployment=read(root/"deployment/deployment-report.json",[])
-          allowed={"clientPath","clientAuditPath","clientVerCode","clientVerName","version","build","forceUpdate","minVersion","resourceVersion"}
+          allowed={"clientPath","clientAuditPath","clientVerCode","clientVerName","version","build","forceUpdate","minVersion","resourceVersion","newHouTaiServiceUrl","product","productId","partition","partitionId","sdk","sdkId","paymentChannel","package","packageName"}
           def safe(x):
               if isinstance(x,dict):
                   out={}
@@ -207,7 +208,7 @@ jobs:
               m=re.search(r"app_ver_name=([0-9.]+)",row.get("url",""))
               if region not in ("en","kr","en_test","kr_test") or not m: continue
               key=region+"-"+m.group(1)
-              cfg=safe(row.get("config"))
+              cfg=safe({"resourcesUpdateConfigV3":row.get("config"),"publicFields":row.get("publicFields",{})})
               valid=row.get("status")==200 and bool(cfg)
               obs=dict(key=key,region=region,status="verified" if valid else "unavailable")
               if valid:
@@ -244,6 +245,62 @@ jobs:
           write(idx/"client-resource-diff.json",dict(run_id=run,changes=client_changes))
           if all(v["status"]=="verified" for v in coverage.values()):
               (idx/"run-id.txt").write_text(run+"\n")
+          PY
+      - name: Inventory client and deployment endpoint references
+        if: always()
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, re, hashlib, os
+          from urllib.parse import urlsplit, urlunsplit
+          root=pathlib.Path("capture")
+          out=pathlib.Path("patch-capture-index/backend")
+          out.mkdir(parents=True,exist_ok=True)
+          fields=("newHouTaiServiceUrl","hw_en","en_google_5","jiheen","com.minipirateclash.googlelb")
+          url_rx=re.compile(r"""(?:https?|wss?)://[A-Za-z0-9.-]+(?::[0-9]{1,5})?(?:/[A-Za-z0-9._~/%{}:-]*)?""",re.I)
+          path_rx=re.compile(r"""["'](/[A-Za-z0-9_-]+(?:/[A-Za-z0-9_.{}:-]+)+)["']""")
+          def clean(u):
+              try:
+                  p=urlsplit(u)
+                  if not p.hostname or p.username or p.password: return None
+                  # Never retain query strings, fragments or likely secret-bearing paths.
+                  if re.search(r"(?:token|secret|password|credential|session|apikey|api_key|signature|authorization)",p.path,re.I): return None
+                  if any(len(x)>64 for x in p.path.split("/")): return None
+                  return urlunsplit((p.scheme,p.netloc,p.path,"",""))
+              except ValueError: return None
+          def category(u):
+              if re.search(r"admin|gm|houtai|payment|pay|login|auth|account",u,re.I): return "restricted_or_unknown"
+              if u.startswith(("ws://","wss://")): return "gameplay_transport"
+              return "unclassified"
+          def scan(region,files):
+              entries={}; hits=[]; sources=[]
+              for f in sorted(files):
+                  raw=f.read_bytes()
+                  src=str(f.relative_to(root))
+                  sources.append(dict(file=src,sha256=hashlib.sha256(raw).hexdigest()))
+                  t=raw.decode("utf-8",errors="replace").replace(r"\/","/")
+                  for m in url_rx.finditer(t):
+                      u=clean(m.group())
+                      if not u: continue
+                      e=entries.setdefault(u,dict(endpoint=u,kind=category(u),access="not_tested",sources=[]))
+                      if src not in e["sources"]: e["sources"].append(src)
+                  if f.suffix==".js":
+                      for m in path_rx.finditer(t):
+                          u=m.group(1)
+                          if re.search(r"token|secret|password|credential|session|apikey|signature",u,re.I) or any(len(x)>64 for x in u.split("/")): continue
+                          e=entries.setdefault(u,dict(endpoint=u,kind="relative_path_candidate",access="not_tested",sources=[]))
+                          if src not in e["sources"]: e["sources"].append(src)
+                  for field in fields:
+                      matches=list(re.finditer(re.escape(field),t))
+                      if matches: hits.append(dict(field=field,file=src,count=len(matches),offsets=[m.start() for m in matches[:100]]))
+              return dict(region=region,sources=sources,endpoints=[entries[k] for k in sorted(entries)],field_occurrences=hits)
+          regions={}
+          for region in ("en","kr","en_test","kr_test"):
+              files=list((root/region).glob("*.js"))
+              files+=list((root/"deployment").glob(region+"-[0-9]*.json"))
+              if files: regions[region]=scan(region,files)
+          report=dict(run_id=os.environ["GITHUB_RUN_ID"],status="observed" if regions else "unavailable",regions=regions,english_identifiers=dict(product="hw_en",partition="en_google_5",sdk="jiheen",package="com.minipirateclash.googlelb",payment_channel=67,administrative_field="newHouTaiServiceUrl"),limitations="Static references only; relative paths may be non-network assets. Dynamic endpoints may be absent. No discovered endpoint is automatically contacted.")
+          p=out/"endpoint-inventory.json"
+          p.write_text(json.dumps(report,indent=2,sort_keys=True)+"\n")
           PY
       - name: Extract exact skin models
         run: |
